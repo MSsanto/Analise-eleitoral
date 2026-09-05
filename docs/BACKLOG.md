@@ -35,17 +35,23 @@ Este arquivo é a **fonte canônica de trabalho** do `Analise-eleitoral`. Toda m
 | AE-DQ-003 | P0 | ✅ CONCLUÍDO | Qualidade | Quarentena de snapshot inválido | Carga inválida não substitui `snapshot-latest.json` |
 | AE-OPS-001 | P1 | ✅ CONCLUÍDO | Operação | Runbook, incidentes e rollback | Procedimento operacional documentado ponta a ponta |
 | AE-REL-002 | P1 | ✅ CONCLUÍDO | Releases | SemVer + Conventional Commits + checklist | Regras publicadas e changelog atualizado |
+| AE-DASH-001 | P1 | 🚧 EM ANDAMENTO | Dashboards | Visão executiva geral | KPIs de candidaturas, finanças, cobertura e freshness em uma única visão |
+| AE-DASH-002 | P1 | 📋 BACKLOG | Dashboards | Visão financeira | Receitas, despesas, fontes, categorias, concentração e cobertura com filtros |
+| AE-DASH-003 | P1 | 📋 BACKLOG | Dashboards | Visão de candidaturas | Cargo, UF, partido, gênero, cor/raça, escolaridade, idade e ocupação |
 | AE-OBS-001 | P1 | 📋 BACKLOG | Observabilidade | Histórico de execuções e falhas | Registro de sucesso/falha, duração e causa raiz por execução |
 | AE-ANA-001 | P1 | 📋 BACKLOG | Séries temporais | Delta diário/semanal de receitas e despesas | Comparação usa snapshots compatíveis e mesma versão de schema |
 | AE-ANA-002 | P1 | 📋 BACKLOG | Séries temporais | Mudança de situação de candidatura | Eventos identificam valor anterior, novo valor e timestamp |
 | AE-DATA-001 | P1 | 📋 BACKLOG | Dados | Catálogo de datasets legível por máquina | Cada dataset possui dono lógico, fonte, schema, SLA e política de retenção |
 | AE-ID-001 | P1 | 🔎 PESQUISA | Identidade | Cobertura TSE ↔ Câmara | Métrica de vínculo com evidências, sem associação apenas por nome |
 | AE-SEN-001 | P1 | ⛔ BLOQUEADO | Senado | Histórico senatorial | Fonte e regra de vínculo estabilizadas no repositório-fonte |
+| AE-DASH-004 | P2 | 📋 BACKLOG | Dashboards | Visão territorial | UF e recortes territoriais com denominadores explícitos e sem inferências indevidas |
+| AE-DASH-005 | P2 | 📋 BACKLOG | Dashboards | Visão temporal | Evolução de candidaturas e finanças entre snapshots compatíveis |
+| AE-DASH-006 | P2 | 📋 BACKLOG | Dashboards | Saúde e qualidade dos dados | Cobertura, freshness, completude, inconsistências e status por dataset |
 | AE-ANA-003 | P2 | 📋 BACKLOG | Diversidade | Gênero, cor/raça, escolaridade e idade por cargo/UF | Denominadores e ausências explícitos |
 | AE-ANA-004 | P2 | 📋 BACKLOG | Finanças | Evolução da cobertura financeira | Cobertura por cargo, UF e partido com definição estável |
 | AE-ANA-005 | P2 | 📋 BACKLOG | Finanças | Concentração de categorias de despesas | HHI/Top-N apenas em nível agregado e metodologia documentada |
 | AE-PRIV-001 | P2 | 📋 BACKLOG | Privacidade | Auditoria de campos derivados | Nenhum artefato analítico reintroduz dado sensível reduzido na fonte |
-| AE-REL-003 | P2 | 📋 BACKLOG | Releases | Tags e GitHub Releases automatizadas | Tag `vX.Y.Z` criada somente após todos os gates |
+| AE-REL-003 | P2 | 🚧 EM ANDAMENTO | Releases | Tags, GitHub Releases e pacote analítico automatizados | Tag `vX.Y.Z` publica pacote validado com dados, relatórios, gráficos e apresentação |
 | AE-OPS-002 | P2 | 📋 BACKLOG | Operação | Relatório de saúde semanal | Cobertura, freshness, falhas e divergências resumidas automaticamente |
 | AE-ADR-001 | P2 | ✅ CONCLUÍDO | Arquitetura | Registro de decisões (ADR) | Diretório de ADRs e decisão inicial versionados |
 | AE-TEST-001 | P2 | 📋 BACKLOG | Testes | Testes de regressão de métricas-chave | Fixtures congeladas detectam mudança não intencional |
@@ -62,9 +68,21 @@ Este arquivo é a **fonte canônica de trabalho** do `Analise-eleitoral`. Toda m
 
 ## Próxima janela recomendada — v0.4.0
 
-Foco: **observabilidade e comparabilidade temporal**.
+Foco: **visões analíticas, observabilidade e comparabilidade temporal**.
 
-- AE-OBS-001 — observabilidade das execuções.
-- AE-ANA-001 — séries temporais compatíveis.
-- AE-ANA-002 — radar de alterações de candidatura.
-- AE-DATA-001 — catálogo de datasets legível por máquina.
+1. AE-DASH-001 — dashboard executivo geral.
+2. AE-DASH-002 — dashboard financeiro.
+3. AE-DASH-003 — dashboard de candidaturas.
+4. AE-OBS-001 — observabilidade das execuções.
+5. AE-ANA-001 — séries temporais compatíveis.
+6. AE-ANA-002 — radar de alterações de candidatura.
+7. AE-DATA-001 — catálogo de datasets legível por máquina.
+
+## Janela seguinte — v0.5.0
+
+Foco: **aprofundamento analítico e qualidade visual**.
+
+- AE-DASH-004 — visão territorial.
+- AE-DASH-005 — visão temporal.
+- AE-DASH-006 — saúde e qualidade dos dados.
+- AE-ANA-003/004/005 — diversidade, cobertura financeira e concentração agregada.
