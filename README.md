@@ -1,12 +1,21 @@
 # Análise Eleitoral 2026
 
-Camada analítica, documental e visual baseada no repositório `MSsanto/Elei-oes-2026`.
+Camada analítica reprodutível e apartidária para os dados públicos consolidados do projeto `MSsanto/Elei-oes-2026`.
 
-**Versão atual:** `0.3.0`
+**Versão atual:** `0.3.1`
 
-## Estado atual
+## O que este repositório entrega
 
-As prioridades P0 de governança, publicação, qualidade e operação estão implementadas. O pipeline possui freshness gate por fonte, quarentena para snapshots inválidos, CI/CD, testes e documentação operacional.
+- snapshots analíticos versionados;
+- métricas agregadas de candidaturas e finanças;
+- relatórios, gráficos e apresentações;
+- dashboards analíticos;
+- controle de qualidade, freshness, linhagem e quarentena;
+- releases versionadas com pacote ZIP validado.
+
+## Dashboard executivo
+
+O primeiro dashboard P1 está em `dashboard/index.html` e consome `data/derived/snapshot-latest.json` quando servido por HTTP/GitHub Pages.
 
 ## Controle do projeto
 
@@ -19,14 +28,19 @@ Documentos centrais:
 - `docs/VERSIONAMENTO.md` — SemVer, schema e releases de dados;
 - `docs/CONTROLE_DE_RELEASES.md` — gates, commits, branches e rollback;
 - `docs/LINHAGEM_DADOS.md` — rastreabilidade ponta a ponta;
-- `docs/RUNBOOK.md` — operação e recuperação;
-- `docs/INCIDENTES.md` — severidade e causa raiz;
-- `docs/RETENCAO_E_SNAPSHOTS.md` — imutabilidade e retenção;
-- `docs/ADRS/` — decisões arquiteturais e metodológicas.
+- `docs/GOVERNANCA.md` — princípios e regras de publicação;
+- `docs/QUALIDADE_DADOS.md` — controles e limites de interpretação;
+- `docs/CATALOGO_DADOS.md` — catálogo humano dos datasets;
+- `docs/ROADMAP.md` — evolução planejada;
+- `docs/RUNBOOK.md` — operação e recuperação.
 
 ## Gates de publicação
 
 Um release válido exige testes, verificação de governança, validação dos outputs, integridade do snapshot, freshness dentro do SLA e manifesto SHA-256. Snapshot reprovado é enviado à quarentena e nunca substitui automaticamente o último `snapshot-latest.json` válido.
+
+## Release atual
+
+A release oficial `v0.3.1` foi publicada via GitHub Actions com pacote analítico ZIP validado.
 
 ## Princípios
 
