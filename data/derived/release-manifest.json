@@ -1,15 +1,15 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260905T174339Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-05T17:43:39.057531+00:00",
+  "data_release_id": "20260905T232424Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-05T23:24:24.593402+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "4091fd0e2e196b9b4c535dd2ad324a409b7c846d",
+    "commit": "ea0b1efbffc5fb211c60b3864b902b8e710774bd",
     "generated_at_utc": {
-      "candidaturas": "2026-09-05T12:48:37.907239+00:00",
+      "candidaturas": "2026-09-05T22:59:24.034031+00:00",
       "financas": "2026-09-05T10:15:12.728769+00:00",
       "camara": "2026-09-04T23:05:18.973309+00:00"
     }
@@ -25,18 +25,18 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82517,
-      "sha256": "1119ac445a8b13cfd1638d67fa52113d580370c97812dcc02c542eb91858c212"
+      "bytes": 82352,
+      "sha256": "0c91e0f787c2353a5dbe52a1734570ee88a88eb4785e0d05a30f0a2402971cd3"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
-      "bytes": 162,
-      "sha256": "994f479d801bea96d14154dedaf6ec6ce3d67e445b1b5d15a06fbe6d4b8639a7"
+      "bytes": 157,
+      "sha256": "66d9f5a903b0f4767e8fad96c0e28936a0dd8bd3255d69165e75bd6407a1f1a3"
     },
     {
       "path": "data/derived/deputado_estadual_por_uf.csv",
-      "bytes": 436,
-      "sha256": "77e69f2ce439c42e772302181345ed92d0bca7f782494238d0452ca837dfc193"
+      "bytes": 434,
+      "sha256": "0f974a11405a80df5e6e85ec377dbcfe102ef614bb0c004bd468b172d3054ec5"
     },
     {
       "path": "data/derived/receitas_por_fonte.csv",
@@ -50,8 +50,8 @@
     },
     {
       "path": "docs/reports/latest.md",
-      "bytes": 1149,
-      "sha256": "cc5c7ab4dd0927e0d0a7f5f5c75883a36b638e95f6c1d3733264be3291c8c6c4"
+      "bytes": 1150,
+      "sha256": "d08828ba1d50475066905cdcfe5f160c87ef18a4bd693c2f53b2e57a44f44d12"
     }
   ]
 }
