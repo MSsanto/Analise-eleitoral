@@ -1,47 +1,70 @@
 # Backlog canônico
 
-Este arquivo é a fonte canônica de trabalho do `Analise-eleitoral`.
+Este arquivo é a **fonte canônica de trabalho** do `Analise-eleitoral`. Toda mudança relevante deve estar associada a um item do backlog, Issue ou ADR.
 
 ## Convenções
 
-Status: `CONCLUÍDO`, `EM ANDAMENTO`, `BACKLOG`, `PESQUISA`, `BLOQUEADO`, `SUSPENSO`.
+**Status**
+- ✅ `CONCLUÍDO` — entregue na `main`, validado e documentado.
+- 🚧 `EM ANDAMENTO` — implementação ou validação ativa.
+- 📋 `BACKLOG` — aprovado, ainda não iniciado.
+- 🔎 `PESQUISA` — depende de validação de fonte, método ou arquitetura.
+- ⛔ `BLOQUEADO` — impedimento externo ou técnico documentado.
+- 🧊 `SUSPENSO` — preservado historicamente, fora da prioridade atual.
 
-Prioridades: `P0` integridade/publicação; `P1` confiabilidade/próxima versão; `P2` ganho relevante; `P3` melhoria incremental.
+**Prioridade**
+- `P0` — integridade, rastreabilidade ou publicação incorreta; interrompe release.
+- `P1` — necessário para confiabilidade operacional ou próxima versão.
+- `P2` — ganho relevante de análise, automação ou UX de dados.
+- `P3` — melhoria incremental ou dívida técnica não urgente.
 
-IDs seguem `AE-<workstream>-NNN`.
+**ID**: `AE-<workstream>-NNN`, por exemplo `AE-DQ-001`.
 
 ## Quadro atual
 
-| ID | Prioridade | Status | Workstream | Entrega |
-|---|---|---|---|---|
-| AE-GOV-001 | P0 | CONCLUÍDO | Governança | Backlog, versionamento e gates |
-| AE-REL-001 | P0 | CONCLUÍDO | Releases | Manifesto de release com SHA-256 |
-| AE-DQ-001 | P0 | CONCLUÍDO | Qualidade | Gates mínimos de integridade |
-| AE-LIN-001 | P0 | CONCLUÍDO | Linhagem | Proveniência formal da fonte |
-| AE-OPS-001 | P1 | CONCLUÍDO | Operação | Runbook, incidentes e rollback |
-| AE-DQ-002 | P1 | BACKLOG | Qualidade | Freshness gate por fonte |
-| AE-DQ-003 | P1 | BACKLOG | Qualidade | Quarentena de snapshot inválido |
-| AE-OBS-001 | P1 | BACKLOG | Observabilidade | Histórico de execuções e falhas |
-| AE-ANA-001 | P1 | BACKLOG | Séries temporais | Delta diário/semanal financeiro |
-| AE-ANA-002 | P1 | BACKLOG | Séries temporais | Mudança de situação de candidatura |
-| AE-DATA-001 | P1 | BACKLOG | Dados | Catálogo de datasets por máquina |
-| AE-ID-001 | P1 | PESQUISA | Identidade | Cobertura TSE ↔ Câmara |
-| AE-SEN-001 | P1 | BLOQUEADO | Senado | Histórico senatorial |
-| AE-ANA-003 | P2 | BACKLOG | Diversidade | Perfil por cargo/UF/partido |
-| AE-ANA-004 | P2 | BACKLOG | Finanças | Evolução da cobertura financeira |
-| AE-REL-003 | P2 | BACKLOG | Releases | Tags e GitHub Releases automáticas |
-| AE-OPS-002 | P2 | BACKLOG | Operação | Relatório de saúde semanal |
-| AE-TEST-001 | P2 | BACKLOG | Testes | Regressão de métricas-chave |
-| AE-PERF-001 | P3 | BACKLOG | Performance | Benchmark do pipeline |
+| ID | Prioridade | Status | Workstream | Entrega | Critério de aceite |
+|---|---|---|---|---|---|
+| AE-GOV-001 | P0 | ✅ CONCLUÍDO | Governança | Backlog canônico, versionamento e gates | Documentos exigidos e verificação automática presentes |
+| AE-REL-001 | P0 | ✅ CONCLUÍDO | Releases | Manifesto de release de dados com SHA-256 | `data/derived/release-manifest.json` gerado e validado |
+| AE-DQ-001 | P0 | ✅ CONCLUÍDO | Qualidade | Gates mínimos de integridade e artefatos | CI falha diante de artefato obrigatório ausente/inválido |
+| AE-LIN-001 | P0 | ✅ CONCLUÍDO | Linhagem | Proveniência formal do repositório-fonte | Snapshot registra commit/timestamps de origem quando disponível |
+| AE-PIPE-001 | P0 | ✅ CONCLUÍDO | Pipeline | Publicar pipeline analítico completo | Código, testes, configs e artefatos operacionais disponíveis na `main` |
+| AE-DOC-001 | P0 | ✅ CONCLUÍDO | Documentação | Manual de utilização | Instalação, execução, interpretação, falhas e operação documentadas |
+| AE-CI-001 | P0 | ✅ CONCLUÍDO | CI/CD | Pipeline automatizado com gates | Workflow executa análise, testes e publicação somente quando aprovado |
+| AE-DQ-002 | P0 | ✅ CONCLUÍDO | Qualidade | Freshness gate por fonte | SLA configurável impede publicação de snapshot excessivamente defasado |
+| AE-DQ-003 | P0 | ✅ CONCLUÍDO | Qualidade | Quarentena de snapshot inválido | Carga inválida não substitui `snapshot-latest.json` |
+| AE-OPS-001 | P1 | ✅ CONCLUÍDO | Operação | Runbook, incidentes e rollback | Procedimento operacional documentado ponta a ponta |
+| AE-REL-002 | P1 | ✅ CONCLUÍDO | Releases | SemVer + Conventional Commits + checklist | Regras publicadas e changelog atualizado |
+| AE-OBS-001 | P1 | 📋 BACKLOG | Observabilidade | Histórico de execuções e falhas | Registro de sucesso/falha, duração e causa raiz por execução |
+| AE-ANA-001 | P1 | 📋 BACKLOG | Séries temporais | Delta diário/semanal de receitas e despesas | Comparação usa snapshots compatíveis e mesma versão de schema |
+| AE-ANA-002 | P1 | 📋 BACKLOG | Séries temporais | Mudança de situação de candidatura | Eventos identificam valor anterior, novo valor e timestamp |
+| AE-DATA-001 | P1 | 📋 BACKLOG | Dados | Catálogo de datasets legível por máquina | Cada dataset possui dono lógico, fonte, schema, SLA e política de retenção |
+| AE-ID-001 | P1 | 🔎 PESQUISA | Identidade | Cobertura TSE ↔ Câmara | Métrica de vínculo com evidências, sem associação apenas por nome |
+| AE-SEN-001 | P1 | ⛔ BLOQUEADO | Senado | Histórico senatorial | Fonte e regra de vínculo estabilizadas no repositório-fonte |
+| AE-ANA-003 | P2 | 📋 BACKLOG | Diversidade | Gênero, cor/raça, escolaridade e idade por cargo/UF | Denominadores e ausências explícitos |
+| AE-ANA-004 | P2 | 📋 BACKLOG | Finanças | Evolução da cobertura financeira | Cobertura por cargo, UF e partido com definição estável |
+| AE-ANA-005 | P2 | 📋 BACKLOG | Finanças | Concentração de categorias de despesas | HHI/Top-N apenas em nível agregado e metodologia documentada |
+| AE-PRIV-001 | P2 | 📋 BACKLOG | Privacidade | Auditoria de campos derivados | Nenhum artefato analítico reintroduz dado sensível reduzido na fonte |
+| AE-REL-003 | P2 | 📋 BACKLOG | Releases | Tags e GitHub Releases automatizadas | Tag `vX.Y.Z` criada somente após todos os gates |
+| AE-OPS-002 | P2 | 📋 BACKLOG | Operação | Relatório de saúde semanal | Cobertura, freshness, falhas e divergências resumidas automaticamente |
+| AE-ADR-001 | P2 | ✅ CONCLUÍDO | Arquitetura | Registro de decisões (ADR) | Diretório de ADRs e decisão inicial versionados |
+| AE-TEST-001 | P2 | 📋 BACKLOG | Testes | Testes de regressão de métricas-chave | Fixtures congeladas detectam mudança não intencional |
+| AE-PERF-001 | P3 | 📋 BACKLOG | Performance | Benchmark do pipeline | Tempo/memória registrados para baseline e regressão |
 
-## Regras
+## Regras de movimentação
 
-1. Trabalho que altera métrica, schema, fonte ou publicação recebe ID antes do merge.
-2. Só entra em `EM ANDAMENTO` com critério de aceite objetivo.
+1. Item entra como `PESQUISA` quando a fonte ou o método ainda não são suficientemente confiáveis.
+2. Só entra em `EM ANDAMENTO` quando há critério de aceite claro.
 3. Só vira `CONCLUÍDO` após merge na `main`, testes, documentação e artefatos válidos.
-4. Mudança de prioridade é registrada no backlog/Issue.
-5. P0 aplicável aberto bloqueia release.
+4. Mudança de prioridade deve ser registrada no mesmo PR/commit do backlog.
+5. Um item `P0` bloqueia release enquanto permanecer aberto e afetar a integridade do produto.
+6. Trabalho não previsto que altere métrica, schema, fonte ou política de publicação deve ganhar ID antes do merge.
 
-## Próxima versão — v0.3.0
+## Próxima janela recomendada — v0.4.0
 
-Foco: freshness gate, quarentena, observabilidade, séries temporais e testes de regressão.
+Foco: **observabilidade e comparabilidade temporal**.
+
+- AE-OBS-001 — observabilidade das execuções.
+- AE-ANA-001 — séries temporais compatíveis.
+- AE-ANA-002 — radar de alterações de candidatura.
+- AE-DATA-001 — catálogo de datasets legível por máquina.

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_version": "0.3.0",
+  "source_repository": "MSsanto/Elei-oes-2026",
+  "source_branch": "main",
+  "top_n": 10,
+  "age_bins": ["<30", "30-39", "40-49", "50-59", "60-69", "70+", "não informado"],
+  "outputs": {
+    "snapshot_latest": "data/derived/snapshot-latest.json",
+    "daily_history_dir": "data/derived/history",
+    "report_dir": "docs/reports",
+    "chart_dir": "assets/charts",
+    "presentation_latest": "presentations/briefing-executivo-latest.pptx"
+  },
+  "policy": {
+    "candidate_rankings": false,
+    "political_scoring": false,
+    "individual_donor_lists_in_derived_outputs": false,
+    "preserve_source_provenance": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "governance_schema_version": 1,
+  "project": "Analise-eleitoral",
+  "source_repository": "MSsanto/Elei-oes-2026",
+  "default_branch": "main",
+  "software_version_file": "VERSION",
+  "analysis_schema_version": 1,
+  "backlog_file": "docs/BACKLOG.md",
+  "changelog_file": "CHANGELOG.md",
+  "required_documents": [
+    "docs/BACKLOG.md",
+    "docs/ROADMAP.md",
+    "docs/VERSIONAMENTO.md",
+    "docs/GOVERNANCA.md",
+    "docs/QUALIDADE_DADOS.md",
+    "docs/LINHAGEM_DADOS.md",
+    "docs/CATALOGO_DADOS.md",
+    "docs/RUNBOOK.md",
+    "docs/CONTROLE_DE_RELEASES.md",
+    "docs/INCIDENTES.md",
+    "docs/RETENCAO_E_SNAPSHOTS.md",
+    "docs/MANUAL_DE_UTILIZACAO.md"
+  ],
+  "freshness_sla_hours": {
+    "candidaturas": 12,
+    "financas": 18,
+    "camara": 36
+  },
+  "retention": {
+    "daily_snapshots_days": 120,
+    "monthly_snapshots_months": 36,
+    "release_manifests": "indefinido"
+  },
+  "release_gates": {
+    "tests_required": true,
+    "governance_check_required": true,
+    "output_validation_required": true,
+    "changelog_required_for_software_release": true,
+    "data_release_manifest_required": true,
+    "freshness_required": true,
+    "quarantine_on_failure": true
+  }
+}

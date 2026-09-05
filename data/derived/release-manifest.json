@@ -1,0 +1,34 @@
+{
+  "manifest_schema_version": 1,
+  "data_release_id": "20260905T120000Z-schema1-v0.3.0",
+  "generated_at_utc": "2026-09-05T12:00:00+00:00",
+  "software_version": "0.3.0",
+  "analysis_schema_version": 1,
+  "source": {
+    "repository": "MSsanto/Elei-oes-2026",
+    "branch": "main",
+    "commit": null,
+    "generated_at_utc": {
+      "candidaturas": "2026-09-05T07:44:58.301378+00:00",
+      "financas": "2026-09-05T10:15:12.728769+00:00",
+      "camara": "2026-09-04T23:05:18.973309+00:00"
+    }
+  },
+  "quality": {
+    "manifest_checks_ok": true,
+    "federal_uf_coverage_ok": true,
+    "alerts": [
+      "total_despesas_pagas igual a zero deve ser tratado como estado da carga, não como prova de ausência de pagamentos",
+      "regionalização histórica por DDD sem vínculos confirmados; não usar para interpretação territorial",
+      "baseline v0.1.0 usa razão entre totais para cobertura financeira; execuções automáticas posteriores calculam vínculo por id_tse"
+    ]
+  },
+  "artifacts": [
+    {"path":"data/derived/snapshot-latest.json","bytes":5729,"sha256":"fee1bd4e304aab2fc82d1f4684fa1502f9cc3c016895009d16de3d8cd4596ced"},
+    {"path":"data/derived/candidaturas_por_cargo.csv","bytes":161,"sha256":"4b5e82b021e7a892b125e6e85d672cd84bad96cb349d21fd70aced3bb03c5e78"},
+    {"path":"data/derived/deputado_estadual_por_uf.csv","bytes":436,"sha256":"779ef7fa380f9c525e3aeacc7757d789d9f45f85580af0705aa7f901c57faf93"},
+    {"path":"data/derived/receitas_por_fonte.csv","bytes":136,"sha256":"5d2c7f53e0305e10d2ffdb83deec74d33e5302f8bdd73ccfaad75836f006b579"},
+    {"path":"data/derived/despesas_por_categoria.csv","bytes":2182,"sha256":"a6a984aa32137ba79494921acdf9045b80f5d6f1acf73ef3ce2d9884a558e612"},
+    {"path":"docs/reports/latest.md","bytes":1135,"sha256":"d97b6fac95052d04a8f65be51f496a647930ff86b7293fd009aa689c71ed13cb"}
+  ]
+}

@@ -2,7 +2,11 @@
 
 Camada analítica, documental e visual baseada no repositório `MSsanto/Elei-oes-2026`.
 
-**Versão atual:** `0.2.0`
+**Versão atual:** `0.3.0`
+
+## Estado atual
+
+As prioridades P0 de governança, publicação, qualidade e operação estão implementadas. O pipeline possui freshness gate por fonte, quarentena para snapshots inválidos, CI/CD, testes e documentação operacional.
 
 ## Controle do projeto
 
@@ -11,6 +15,7 @@ O repositório separa três dimensões: versão do software (SemVer), versão do
 Documentos centrais:
 
 - `docs/BACKLOG.md` — prioridades e estado do trabalho;
+- `docs/MANUAL_DE_UTILIZACAO.md` — instalação, execução, interpretação e tratamento de falhas;
 - `docs/VERSIONAMENTO.md` — SemVer, schema e releases de dados;
 - `docs/CONTROLE_DE_RELEASES.md` — gates, commits, branches e rollback;
 - `docs/LINHAGEM_DADOS.md` — rastreabilidade ponta a ponta;
@@ -21,7 +26,7 @@ Documentos centrais:
 
 ## Gates de publicação
 
-Um release válido exige testes, verificação de governança, validação dos outputs, proveniência do snapshot, manifesto SHA-256 e ausência de P0 aplicável em aberto. Atualizações automáticas de dados não alteram a versão do software por si só.
+Um release válido exige testes, verificação de governança, validação dos outputs, integridade do snapshot, freshness dentro do SLA e manifesto SHA-256. Snapshot reprovado é enviado à quarentena e nunca substitui automaticamente o último `snapshot-latest.json` válido.
 
 ## Princípios
 

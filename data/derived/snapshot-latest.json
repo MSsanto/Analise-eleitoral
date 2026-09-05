@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "analysis_schema_version": 1,
+    "pipeline_version": "0.3.0",
+    "generated_at_utc": "2026-09-05T12:00:00+00:00",
+    "snapshot_date": "2026-09-05",
+    "source_repository": "MSsanto/Elei-oes-2026",
+    "source_branch": "main",
+    "source_generated_at_utc": {
+      "candidaturas": "2026-09-05T07:44:58.301378+00:00",
+      "financas": "2026-09-05T10:15:12.728769+00:00",
+      "camara": "2026-09-04T23:05:18.973309+00:00"
+    },
+    "source_commit": null
+  },
+  "candidaturas": {
+    "candidaturas_total": 19988,
+    "ids_duplicados": null,
+    "candidaturas_por_cargo": [
+      {"categoria": "Deputado Estadual/Distrital", "total": 11686, "percentual": 58.4651},
+      {"categoria": "Deputado Federal", "total": 7772, "percentual": 38.8833},
+      {"categoria": "Senador", "total": 319, "percentual": 1.596},
+      {"categoria": "Governador", "total": 198, "percentual": 0.9906},
+      {"categoria": "Presidente", "total": 13, "percentual": 0.065}
+    ],
+    "por_cargo": {
+      "Presidente": {
+        "total": 13,
+        "genero": [], "cor_raca": [], "grau_instrucao": [], "ocupacao": [], "partido": [],
+        "uf": [{"categoria": "BR", "total": 13, "percentual": 100.0}],
+        "idade": {"n": 13, "min": 39, "mediana": 56, "media": 57.2308, "max": 80}
+      }
+    }
+  },
+  "financas": {
+    "total_receitas": 3477418529.19,
+    "total_despesas_contratadas": 364858409.72,
+    "total_despesas_pagas": 0.0,
+    "candidaturas_com_financas_fonte": 11541,
+    "receitas_por_fonte": [
+      {"categoria": "FUNDO ESPECIAL", "valor": 3107211522.33, "percentual": 89.354},
+      {"categoria": "OUTROS RECURSOS", "valor": 248022349.71, "percentual": 7.1324},
+      {"categoria": "FUNDO PARTIDARIO", "valor": 122184657.15, "percentual": 3.5137}
+    ],
+    "despesas_por_categoria": [
+      {"categoria": "Publicidade por materiais impressos", "valor": 79054738.37, "percentual": 21.6672},
+      {"categoria": "Serviços prestados por terceiros", "valor": 65186232.5, "percentual": 17.8662},
+      {"categoria": "Despesa com Impulsionamento de Conteúdos", "valor": 33485510.98, "percentual": 9.1777},
+      {"categoria": "Publicidade por adesivos", "valor": 31072355.3, "percentual": 8.5163},
+      {"categoria": "Serviços advocatícios", "valor": 26590923.27, "percentual": 7.288},
+      {"categoria": "Serviços contábeis", "valor": 20172288.67, "percentual": 5.5288},
+      {"categoria": "Despesas com pessoal", "valor": 19368057.21, "percentual": 5.3084},
+      {"categoria": "Atividades de militância e mobilização de rua", "valor": 19055696.64, "percentual": 5.2228},
+      {"categoria": "Produção de programas de rádio, televisão ou vídeo", "valor": 12787292.93, "percentual": 3.5047},
+      {"categoria": "Locação/cessão de bens imóveis", "valor": 11861459.9, "percentual": 3.251}
+    ],
+    "concentracao_top10_despesas_percentual": 87.331,
+    "despesas_contratadas_sobre_receitas_percentual": 10.4922
+  },
+  "recortes": {
+    "deputado_estadual_por_uf": [
+      {"uf":"SP","categoria":"SP","total":1430,"percentual":12.2369},
+      {"uf":"RJ","categoria":"RJ","total":1186,"percentual":10.1489},
+      {"uf":"MG","categoria":"MG","total":996,"percentual":8.523},
+      {"uf":"BA","categoria":"BA","total":643,"percentual":5.5023},
+      {"uf":"PR","categoria":"PR","total":616,"percentual":5.2713},
+      {"uf":"GO","categoria":"GO","total":591,"percentual":5.0573},
+      {"uf":"RS","categoria":"RS","total":541,"percentual":4.6295},
+      {"uf":"PE","categoria":"PE","total":517,"percentual":4.4241},
+      {"uf":"DF","categoria":"DF","total":431,"percentual":3.6882},
+      {"uf":"PA","categoria":"PA","total":416,"percentual":3.5598}
+    ],
+    "deputado_estadual_top3_percentual": 30.9088,
+    "deputado_estadual_top10_percentual": 63.0413,
+    "presidencia": {"total":13,"genero":[],"cor_raca":[],"grau_instrucao":[],"ocupacao":[],"idade":{"n":13,"min":39,"mediana":56,"media":57.2308,"max":80}}
+  },
+  "qualidade": {
+    "manifest_checks": {
+      "Presidente": {"esperado":13,"lido":13,"ok":true},
+      "Governador": {"esperado":198,"lido":198,"ok":true},
+      "Senador": {"esperado":319,"lido":319,"ok":true},
+      "Deputado Federal": {"esperado":7772,"lido":7772,"ok":true},
+      "Deputado Estadual/Distrital": {"esperado":11686,"lido":11686,"ok":true}
+    },
+    "federal_ufs_presentes": 27,
+    "federal_ufs_esperadas": 27,
+    "ddd_historico_confirmados": 0,
+    "ddd_principal_confirmados": 0,
+    "camara_registros_historicos": 7889,
+    "historico_senado": "pendente",
+    "radar_mode": "baseline",
+    "radar_events": 0,
+    "alertas": [
+      "total_despesas_pagas igual a zero deve ser tratado como estado da carga, não como prova de ausência de pagamentos",
+      "regionalização histórica por DDD sem vínculos confirmados; não usar para interpretação territorial",
+      "baseline v0.1.0 usa razão entre totais para cobertura financeira; execuções automáticas posteriores calculam vínculo por id_tse"
+    ],
+    "publication_gate": {
+      "ok": true,
+      "reasons": [],
+      "freshness": {
+        "ok": true,
+        "checked_at_utc": "2026-09-05T12:00:00+00:00",
+        "sources": {
+          "candidaturas": {"generated_at_utc":"2026-09-05T07:44:58.301378+00:00","age_hours":4.25,"sla_hours":12,"ok":true,"reason":null},
+          "financas": {"generated_at_utc":"2026-09-05T10:15:12.728769+00:00","age_hours":1.746,"sla_hours":18,"ok":true,"reason":null},
+          "camara": {"generated_at_utc":"2026-09-04T23:05:18.973309+00:00","age_hours":12.911,"sla_hours":36,"ok":true,"reason":null}
+        }
+      },
+      "integrity": {"ok":true,"manifest_failed":[],"federal_uf_coverage_ok":true,"candidate_total_positive":true}
+    }
+  }
+}
