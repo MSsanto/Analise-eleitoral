@@ -51,7 +51,7 @@ Este arquivo é a **fonte canônica de trabalho** do `Analise-eleitoral`. Toda m
 | AE-ANA-004 | P2 | 📋 BACKLOG | Finanças | Evolução da cobertura financeira | Cobertura por cargo, UF e partido com definição estável |
 | AE-ANA-005 | P2 | 📋 BACKLOG | Finanças | Concentração de categorias de despesas | HHI/Top-N apenas em nível agregado e metodologia documentada |
 | AE-PRIV-001 | P2 | 📋 BACKLOG | Privacidade | Auditoria de campos derivados | Nenhum artefato analítico reintroduz dado sensível reduzido na fonte |
-| AE-REL-003 | P2 | 🚧 EM ANDAMENTO | Releases | Tags, GitHub Releases e pacote analítico automatizados | Tag `vX.Y.Z` publica pacote validado com dados, relatórios, gráficos e apresentação |
+| AE-REL-003 | P2 | ✅ CONCLUÍDO | Releases | Tags, GitHub Releases e pacote analítico automatizados | `v0.3.1` publicada com pacote ZIP validado via GitHub Actions |
 | AE-OPS-002 | P2 | 📋 BACKLOG | Operação | Relatório de saúde semanal | Cobertura, freshness, falhas e divergências resumidas automaticamente |
 | AE-ADR-001 | P2 | ✅ CONCLUÍDO | Arquitetura | Registro de decisões (ADR) | Diretório de ADRs e decisão inicial versionados |
 | AE-TEST-001 | P2 | 📋 BACKLOG | Testes | Testes de regressão de métricas-chave | Fixtures congeladas detectam mudança não intencional |
