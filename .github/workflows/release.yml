@@ -1,0 +1,118 @@
+name: Publicar release analítico
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - VERSION
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-analise-eleitoral
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout da camada analítica
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout do repositório-fonte
+        uses: actions/checkout@v4
+        with:
+          repository: MSsanto/Elei-oes-2026
+          ref: main
+          path: source/Elei-oes-2026
+          fetch-depth: 1
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Dependências
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt -r requirements-dev.txt -e .
+
+      - name: Gerar pacote analítico atualizado
+        run: python scripts/run_analysis.py --source source/Elei-oes-2026 --output .
+
+      - name: Gates de release
+        run: |
+          pytest -q
+          python scripts/check_governance.py
+          python scripts/validate_outputs.py
+
+      - name: Resolver versão e tag
+        id: version
+        shell: bash
+        run: |
+          VERSION="$(tr -d '[:space:]' < VERSION)"
+          TAG="v${VERSION}"
+          echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
+          echo "tag=${TAG}" >> "$GITHUB_OUTPUT"
+
+      - name: Montar pacote de release
+        shell: bash
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          STAGE="release/Analise-eleitoral-${VERSION}"
+          mkdir -p "$STAGE"
+
+          cp README.md VERSION CHANGELOG.md "$STAGE/"
+          cp -R data/derived "$STAGE/data-derived"
+          cp -R docs/reports "$STAGE/reports"
+          cp -R assets/charts "$STAGE/charts"
+          cp -R presentations "$STAGE/presentations"
+          cp docs/METODOLOGIA.md docs/DICIONARIO_METRICAS.md docs/QUALIDADE_DADOS.md "$STAGE/" 2>/dev/null || true
+
+          cd release
+          zip -r "Analise-eleitoral-${VERSION}.zip" "Analise-eleitoral-${VERSION}"
+
+      - name: Publicar artefato da execução
+        uses: actions/upload-artifact@v4
+        with:
+          name: Analise-eleitoral-${{ steps.version.outputs.version }}
+          path: release/Analise-eleitoral-${{ steps.version.outputs.version }}.zip
+          if-no-files-found: error
+          retention-days: 90
+
+      - name: Criar tag se ainda não existir
+        shell: bash
+        run: |
+          TAG="${{ steps.version.outputs.tag }}"
+          if git rev-parse "$TAG" >/dev/null 2>&1 || git ls-remote --exit-code --tags origin "refs/tags/$TAG" >/dev/null 2>&1; then
+            echo "Tag $TAG já existe."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git tag -a "$TAG" -m "Release $TAG"
+            git push origin "$TAG"
+          fi
+
+      - name: Criar ou atualizar GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          TAG="${{ steps.version.outputs.tag }}"
+          VERSION="${{ steps.version.outputs.version }}"
+          ZIP="release/Analise-eleitoral-${VERSION}.zip"
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$ZIP" --clobber
+          else
+            gh release create "$TAG" "$ZIP" \
+              --title "Análise Eleitoral ${TAG}" \
+              --generate-notes \
+              --verify-tag
+          fi
