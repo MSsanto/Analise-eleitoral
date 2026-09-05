@@ -10,5 +10,5 @@ test('loads the dashboard and exposes the health endpoint', async ({ page, reque
 
   const health = await request.get('/api/health');
   expect(health.ok()).toBeTruthy();
-  await expect(health.json()).resolves.toMatchObject({ status: 'ok' });
+  expect(await health.json()).toMatchObject({ status: 'ok' });
 });
