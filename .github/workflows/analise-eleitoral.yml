@@ -44,20 +44,94 @@ jobs:
           python -m pip install -r requirements.txt -r requirements-dev.txt -e .
 
       - name: Gerar análises
+        id: analyze
+        continue-on-error: true
         run: python scripts/run_analysis.py --source source/Elei-oes-2026 --output .
 
       - name: Validar
+        id: validate
+        if: steps.analyze.outcome == 'success'
+        continue-on-error: true
         run: |
           pytest -q
           python scripts/check_governance.py
           python scripts/validate_outputs.py
+
+      - name: Registrar status do pipeline
+        if: always()
+        env:
+          ANALYZE_OUTCOME: ${{ steps.analyze.outcome }}
+          VALIDATE_OUTCOME: ${{ steps.validate.outcome }}
+          RUN_ID: ${{ github.run_id }}
+          RUN_NUMBER: ${{ github.run_number }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          analyze = os.environ.get('ANALYZE_OUTCOME', 'unknown')
+          validate = os.environ.get('VALIDATE_OUTCOME', 'unknown')
+          status = 'ok' if analyze == 'success' and validate == 'success' else 'error'
+          if analyze != 'success':
+              stage = 'quality_gate_or_generation'
+              message = 'A geração analítica foi interrompida. O último snapshot validado deve ser preservado.'
+          elif validate != 'success':
+              stage = 'validation'
+              message = 'A geração terminou, mas a validação reprovou o snapshot. A saída não deve ser publicada.'
+          else:
+              stage = 'complete'
+              message = 'Geração e validação concluídas com sucesso.'
+
+          payload = {
+              'schema_version': 1,
+              'generated_at': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
+              'component': 'analise_eleitoral',
+              'status': status,
+              'stage': stage,
+              'analyze_outcome': analyze,
+              'validate_outcome': validate,
+              'event': os.environ.get('EVENT_NAME'),
+              'run_id': os.environ.get('RUN_ID'),
+              'run_number': os.environ.get('RUN_NUMBER'),
+              'message': message,
+          }
+          target = Path('data/status/analysis-run.json')
+          target.parent.mkdir(parents=True, exist_ok=True)
+          target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(json.dumps(payload, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Publicar diagnóstico quando houver falha
+        if: steps.analyze.outcome != 'success' || steps.validate.outcome != 'success'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/status/analysis-run.json
+
+          if git diff --cached --quiet; then
+            echo "Nenhum diagnóstico novo para publicar."
+          else
+            git commit -m "status: registrar falha do pipeline analítico [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Encerrar pipeline reprovado
+        if: steps.analyze.outcome != 'success' || steps.validate.outcome != 'success'
+        run: |
+          echo "Pipeline analítico reprovado; derivados não serão publicados."
+          exit 1
 
       - name: Publicar derivados quando houver mudança
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/derived docs/reports assets/charts presentations/briefing-executivo-latest.pptx
+          git add data/derived data/status/analysis-run.json docs/reports assets/charts presentations/briefing-executivo-latest.pptx
 
           if git diff --cached --quiet; then
             echo "Nenhuma mudança analítica para publicar."
