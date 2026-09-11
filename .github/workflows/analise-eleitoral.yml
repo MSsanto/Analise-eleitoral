@@ -6,6 +6,12 @@ on:
     # 00:55, 06:55, 12:55 e 18:55 em Brasília (UTC-3).
     # A janela é posterior às coletas regulares do repositório-fonte.
     - cron: "55 3,9,15,21 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/analysis-trigger.txt'
+      - '.github/workflows/analise-eleitoral.yml'
 
 permissions:
   contents: write
@@ -24,6 +30,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Sincronizar camada analítica com main atual
+        shell: bash
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
+          echo "Camada analítica sincronizada em $(git rev-parse HEAD)"
 
       - name: Checkout do repositório-fonte
         uses: actions/checkout@v4
@@ -116,7 +129,11 @@ jobs:
             echo "Nenhum diagnóstico novo para publicar."
           else
             git commit -m "status: registrar falha do pipeline analítico [skip ci]"
-            git pull --rebase origin main
+            git fetch origin main
+            if ! git merge-base --is-ancestor origin/main HEAD; then
+              echo "main avançou durante a execução; rebaseando antes da publicação."
+              git rebase origin/main
+            fi
             git push origin HEAD:main
           fi
 
@@ -139,5 +156,9 @@ jobs:
           fi
 
           git commit -m "data: atualizar snapshot analítico [skip ci]"
-          git pull --rebase origin main
+          git fetch origin main
+          if ! git merge-base --is-ancestor origin/main HEAD; then
+            echo "main avançou durante a execução; rebaseando antes da publicação."
+            git rebase origin/main
+          fi
           git push origin HEAD:main
