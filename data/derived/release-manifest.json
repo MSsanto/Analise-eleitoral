@@ -1,17 +1,17 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260905T232424Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-05T23:24:24.593402+00:00",
+  "data_release_id": "20260911T110012Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-11T11:00:12.630832+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "ea0b1efbffc5fb211c60b3864b902b8e710774bd",
+    "commit": "4c76c81732eb15970d5a528fef86e1b260bf40d6",
     "generated_at_utc": {
-      "candidaturas": "2026-09-05T22:59:24.034031+00:00",
-      "financas": "2026-09-05T10:15:12.728769+00:00",
-      "camara": "2026-09-04T23:05:18.973309+00:00"
+      "candidaturas": "2026-09-10T23:14:58.528251+00:00",
+      "financas": "2026-09-11T10:55:05.534177+00:00",
+      "camara": "2026-09-10T14:16:22.916019+00:00"
     }
   },
   "quality": {
@@ -25,33 +25,33 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82352,
-      "sha256": "0c91e0f787c2353a5dbe52a1734570ee88a88eb4785e0d05a30f0a2402971cd3"
+      "bytes": 82218,
+      "sha256": "10f73aca4fdb044832f1a8f888e01e3a831803b4cdab7b48dbdf784d3402c379"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
-      "bytes": 157,
-      "sha256": "66d9f5a903b0f4767e8fad96c0e28936a0dd8bd3255d69165e75bd6407a1f1a3"
+      "bytes": 163,
+      "sha256": "fb577f0cbf56c924916efd72ec59eafeb3b814a032e930f4ab21f4e3c4bf63c1"
     },
     {
       "path": "data/derived/deputado_estadual_por_uf.csv",
-      "bytes": 434,
-      "sha256": "0f974a11405a80df5e6e85ec377dbcfe102ef614bb0c004bd468b172d3054ec5"
+      "bytes": 435,
+      "sha256": "d37abade8e7a71cd0359c12dc0539a5165a04d04f911a7f0edd83905b413e0f9"
     },
     {
       "path": "data/derived/receitas_por_fonte.csv",
       "bytes": 136,
-      "sha256": "5d2c7f53e0305e10d2ffdb83deec74d33e5302f8bdd73ccfaad75836f006b579"
+      "sha256": "031e4f4c348ddfa49dc9f081ddd305a22ed12c0025225281f5169828a1e005ae"
     },
     {
       "path": "data/derived/despesas_por_categoria.csv",
-      "bytes": 2182,
-      "sha256": "a6a984aa32137ba79494921acdf9045b80f5d6f1acf73ef3ce2d9884a558e612"
+      "bytes": 2196,
+      "sha256": "6508ce2aacd18d6d980cff752f36c78f72a3fd04b1bdc2ca8900ccc62f5aa55f"
     },
     {
       "path": "docs/reports/latest.md",
-      "bytes": 1150,
-      "sha256": "d08828ba1d50475066905cdcfe5f160c87ef18a4bd693c2f53b2e57a44f44d12"
+      "bytes": 1149,
+      "sha256": "1448268a8e4750c44bbc83ad688f59fe1afb530283a4a6ae1a426700bc93fc52"
     }
   ]
 }
