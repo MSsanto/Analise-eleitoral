@@ -1,16 +1,16 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260912T175303Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-12T17:53:03.478728+00:00",
+  "data_release_id": "20260912T232730Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-12T23:27:30.825903+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "c21931833dcb702a2e99628d69af5df1839de6de",
+    "commit": "ca2adcd9c5586849ff3a4acd52510844ee089e46",
     "generated_at_utc": {
-      "candidaturas": "2026-09-12T17:46:12.548405+00:00",
-      "financas": "2026-09-12T13:06:03.228099+00:00",
+      "candidaturas": "2026-09-12T23:05:25.541732+00:00",
+      "financas": "2026-09-12T23:17:03.273005+00:00",
       "camara": "2026-09-12T14:01:50.849436+00:00"
     }
   },
@@ -25,18 +25,18 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82378,
-      "sha256": "a9a61719835af6761035dcaf59f0d17d812bc5961fa8a0584549a94d71f66d13"
+      "bytes": 82380,
+      "sha256": "c70d0981bfb515df634784e8c9f7f042f1e4f527b25896ca23ebfa53ba50e62d"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
       "bytes": 163,
-      "sha256": "4288f9af69d7a2eea120366a96f0e012666f2cea5411c4d2a9fac472555e8566"
+      "sha256": "6ec33370ae4d4758714fe812880090a5f95a092faeec88956cde0c7b5c460cd8"
     },
     {
       "path": "data/derived/deputado_estadual_por_uf.csv",
-      "bytes": 434,
-      "sha256": "694a00798772cfdbb47b0faf88d46b84ef374aa726f12d9c1188966cac4239c2"
+      "bytes": 436,
+      "sha256": "db7b0a08c99111be976599a44de5333d8040add15ac6485b845afa2356343be1"
     },
     {
       "path": "data/derived/receitas_por_fonte.csv",
@@ -51,7 +51,7 @@
     {
       "path": "docs/reports/latest.md",
       "bytes": 1150,
-      "sha256": "ac173e57d5419650b918cba385669ab1ccfdb252741f2056cc12efab737be5c3"
+      "sha256": "f35b1383149eeccffaf931e9eb9aa7adc9ce6bbad5f9854451f3c7edf01cf5d9"
     }
   ]
 }
