@@ -1,16 +1,16 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260913T182154Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-13T18:21:54.304386+00:00",
+  "data_release_id": "20260913T233907Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-13T23:39:07.995727+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "800a3d9767a5241cdeb8ba96e71d7f20b8cbdddd",
+    "commit": "1440f76b42ce7cd05f4fc9d17a3f155c7eed434a",
     "generated_at_utc": {
-      "candidaturas": "2026-09-13T18:15:17.006495+00:00",
-      "financas": "2026-09-13T13:53:03.883677+00:00",
+      "candidaturas": "2026-09-13T23:14:08.131974+00:00",
+      "financas": "2026-09-13T23:28:01.726650+00:00",
       "camara": "2026-09-13T14:26:14.049301+00:00"
     }
   },
@@ -25,18 +25,18 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82427,
-      "sha256": "6314effbed6173f2b2702827a5b19e2822cd948286ba385526c29776b2f99926"
+      "bytes": 82438,
+      "sha256": "433ab4faf1bfe63dd0615c7ae77b1a95b3354ffd405020102000e7b5c5ea6b21"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
       "bytes": 163,
-      "sha256": "cd69abe656e9341f8ddc108daf0ac0d9815065a9c84143d91af8405a67d2c9aa"
+      "sha256": "f4f0dc5725397a649bdd9dc40dbacb893df8aab4a478452bace74ba39ea73c33"
     },
     {
       "path": "data/derived/deputado_estadual_por_uf.csv",
-      "bytes": 436,
-      "sha256": "db7b0a08c99111be976599a44de5333d8040add15ac6485b845afa2356343be1"
+      "bytes": 437,
+      "sha256": "7c0042775ed717537294ea64e4344aa633b95a7dfa2d2df7930e02edbbcb5810"
     },
     {
       "path": "data/derived/receitas_por_fonte.csv",
@@ -50,8 +50,8 @@
     },
     {
       "path": "docs/reports/latest.md",
-      "bytes": 1149,
-      "sha256": "ba3193d13c0a20f406134a2d82a982a6a34c4d9b944c5bf7cec2f28297da3853"
+      "bytes": 1150,
+      "sha256": "a0cf3208d12dcfcc95c9e7d00ff8951eb6ceea9550a121f1fa6745e52254d293"
     }
   ]
 }
