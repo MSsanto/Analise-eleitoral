@@ -1,17 +1,17 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260914T160053Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-14T16:00:53.469611+00:00",
+  "data_release_id": "20260915T000138Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-15T00:01:38.304838+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "602e2a732d17a5db3fffab5a581b646ea5f4d588",
+    "commit": "aa18326134a91bb786b0acce42673a1de6f0ec28",
     "generated_at_utc": {
-      "candidaturas": "2026-09-14T09:05:16.943603+00:00",
+      "candidaturas": "2026-09-14T15:56:12.187865+00:00",
       "financas": "2026-09-14T15:59:37.501089+00:00",
-      "camara": "2026-09-13T14:26:14.049301+00:00"
+      "camara": "2026-09-14T15:56:31.508855+00:00"
     }
   },
   "quality": {
@@ -25,18 +25,18 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82440,
-      "sha256": "ad75b525201a1f2a1f86651575ecc28d67ce156d28cd3621b0b2f30eb12ee935"
+      "bytes": 82437,
+      "sha256": "df584178af2fbd9fbd44b4d024f586f1731ceb454e894fdf41d45da5827e3a06"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
-      "bytes": 163,
-      "sha256": "f4f0dc5725397a649bdd9dc40dbacb893df8aab4a478452bace74ba39ea73c33"
+      "bytes": 162,
+      "sha256": "4e338f2f43487b0f54b13035d8818d9798e8ecceb12cd6f147bcfab78be57582"
     },
     {
       "path": "data/derived/deputado_estadual_por_uf.csv",
       "bytes": 437,
-      "sha256": "7c0042775ed717537294ea64e4344aa633b95a7dfa2d2df7930e02edbbcb5810"
+      "sha256": "2d4f34e20ff3afd3c6f61f102514193ceba21c873751d4aa18db18952d8f5d36"
     },
     {
       "path": "data/derived/receitas_por_fonte.csv",
@@ -50,8 +50,8 @@
     },
     {
       "path": "docs/reports/latest.md",
-      "bytes": 1151,
-      "sha256": "be74b9db7d1594407ea5895fa1c2d38192cc7d474362cf7ee42300114e753b16"
+      "bytes": 1150,
+      "sha256": "c854511a7cf3a9fd2919feac4738227fb76321de68fcf474e388d7fb5d4e718e"
     }
   ]
 }
