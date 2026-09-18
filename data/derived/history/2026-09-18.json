@@ -2,15 +2,15 @@
   "meta": {
     "analysis_schema_version": 1,
     "pipeline_version": "0.3.1",
-    "generated_at_utc": "2026-09-18T13:54:33.944645+00:00",
+    "generated_at_utc": "2026-09-18T18:39:46.225342+00:00",
     "snapshot_date": "2026-09-18",
     "source_repository": "MSsanto/Elei-oes-2026",
     "source_branch": "main",
-    "source_commit": "7f041ab977ec2be2c46347509cd3afddfab63355",
+    "source_commit": "87a6ee38b3ea2e33b049536e572d5199110ba568",
     "source_generated_at_utc": {
-      "candidaturas": "2026-09-18T08:22:11.171831+00:00",
+      "candidaturas": "2026-09-18T18:33:51.903303+00:00",
       "financas": "2026-09-18T13:48:38.919211+00:00",
-      "camara": "2026-09-17T08:46:25.512727+00:00"
+      "camara": "2026-09-18T13:41:15.040396+00:00"
     }
   },
   "candidaturas": {
@@ -357,13 +357,13 @@
     "cor_raca": [
       {
         "categoria": "BRANCA",
-        "total": 10044,
-        "percentual": 50.0698
+        "total": 10042,
+        "percentual": 50.0598
       },
       {
         "categoria": "PARDA",
-        "total": 6998,
-        "percentual": 34.8853
+        "total": 7000,
+        "percentual": 34.8953
       },
       {
         "categoria": "PRETA",
@@ -389,8 +389,8 @@
     "grau_instrucao": [
       {
         "categoria": "SUPERIOR COMPLETO",
-        "total": 11667,
-        "percentual": 58.1605
+        "total": 11668,
+        "percentual": 58.1655
       },
       {
         "categoria": "ENSINO MÉDIO COMPLETO",
@@ -399,8 +399,8 @@
       },
       {
         "categoria": "SUPERIOR INCOMPLETO",
-        "total": 2144,
-        "percentual": 10.6879
+        "total": 2143,
+        "percentual": 10.683
       },
       {
         "categoria": "ENSINO MÉDIO INCOMPLETO",
@@ -476,8 +476,8 @@
       },
       {
         "categoria": "ESTUDANTE, BOLSISTA, ESTAGIÁRIO E ASSEMELHADOS",
-        "total": 506,
-        "percentual": 2.5224
+        "total": 505,
+        "percentual": 2.5174
       },
       {
         "categoria": "ADMINISTRADOR",
@@ -511,8 +511,8 @@
       },
       {
         "categoria": "PROFESSOR DE ENSINO FUNDAMENTAL",
-        "total": 271,
-        "percentual": 1.3509
+        "total": 272,
+        "percentual": 1.3559
       },
       {
         "categoria": "ENGENHEIRO",
@@ -592,13 +592,13 @@
         "cor_raca": [
           {
             "categoria": "BRANCA",
-            "total": 5688,
-            "percentual": 48.5117
+            "total": 5687,
+            "percentual": 48.5032
           },
           {
             "categoria": "PARDA",
-            "total": 4258,
-            "percentual": 36.3156
+            "total": 4259,
+            "percentual": 36.3241
           },
           {
             "categoria": "PRETA",
@@ -706,8 +706,8 @@
           },
           {
             "categoria": "ESTUDANTE, BOLSISTA, ESTAGIÁRIO E ASSEMELHADOS",
-            "total": 273,
-            "percentual": 2.3284
+            "total": 272,
+            "percentual": 2.3198
           },
           {
             "categoria": "APOSENTADO (EXCETO SERVIDOR PÚBLICO)",
@@ -731,8 +731,8 @@
           },
           {
             "categoria": "PROFESSOR DE ENSINO FUNDAMENTAL",
-            "total": 161,
-            "percentual": 1.3731
+            "total": 162,
+            "percentual": 1.3817
           },
           {
             "categoria": "ENGENHEIRO",
@@ -1064,13 +1064,13 @@
         "cor_raca": [
           {
             "categoria": "BRANCA",
-            "total": 4035,
-            "percentual": 51.7241
+            "total": 4034,
+            "percentual": 51.7113
           },
           {
             "categoria": "PARDA",
-            "total": 2596,
-            "percentual": 33.2778
+            "total": 2597,
+            "percentual": 33.2906
           },
           {
             "categoria": "PRETA",
@@ -1091,8 +1091,8 @@
         "grau_instrucao": [
           {
             "categoria": "SUPERIOR COMPLETO",
-            "total": 4668,
-            "percentual": 59.8385
+            "total": 4669,
+            "percentual": 59.8513
           },
           {
             "categoria": "ENSINO MÉDIO COMPLETO",
@@ -1101,8 +1101,8 @@
           },
           {
             "categoria": "SUPERIOR INCOMPLETO",
-            "total": 884,
-            "percentual": 11.3319
+            "total": 883,
+            "percentual": 11.3191
           },
           {
             "categoria": "ENSINO MÉDIO INCOMPLETO",
@@ -3489,25 +3489,25 @@
       "reasons": [],
       "freshness": {
         "ok": true,
-        "checked_at_utc": "2026-09-18T13:54:33.964892+00:00",
+        "checked_at_utc": "2026-09-18T18:39:46.243324+00:00",
         "sources": {
           "candidaturas": {
-            "generated_at_utc": "2026-09-18T08:22:11.171831+00:00",
-            "age_hours": 5.54,
+            "generated_at_utc": "2026-09-18T18:33:51.903303+00:00",
+            "age_hours": 0.098,
             "sla_hours": 12,
             "ok": true,
             "reason": null
           },
           "financas": {
             "generated_at_utc": "2026-09-18T13:48:38.919211+00:00",
-            "age_hours": 0.099,
+            "age_hours": 4.852,
             "sla_hours": 18,
             "ok": true,
             "reason": null
           },
           "camara": {
-            "generated_at_utc": "2026-09-17T08:46:25.512727+00:00",
-            "age_hours": 29.136,
+            "generated_at_utc": "2026-09-18T13:41:15.040396+00:00",
+            "age_hours": 4.975,
             "sla_hours": 36,
             "ok": true,
             "reason": null
