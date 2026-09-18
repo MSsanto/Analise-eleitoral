@@ -2,14 +2,14 @@
   "meta": {
     "analysis_schema_version": 1,
     "pipeline_version": "0.3.1",
-    "generated_at_utc": "2026-09-18T08:31:44.384880+00:00",
+    "generated_at_utc": "2026-09-18T13:54:33.944645+00:00",
     "snapshot_date": "2026-09-18",
     "source_repository": "MSsanto/Elei-oes-2026",
     "source_branch": "main",
-    "source_commit": "dec707217802ad329f172510df422f391ef1cfd1",
+    "source_commit": "7f041ab977ec2be2c46347509cd3afddfab63355",
     "source_generated_at_utc": {
       "candidaturas": "2026-09-18T08:22:11.171831+00:00",
-      "financas": "2026-09-17T23:39:54.603227+00:00",
+      "financas": "2026-09-18T13:48:38.919211+00:00",
       "camara": "2026-09-17T08:46:25.512727+00:00"
     }
   },
@@ -3489,25 +3489,25 @@
       "reasons": [],
       "freshness": {
         "ok": true,
-        "checked_at_utc": "2026-09-18T08:31:44.406244+00:00",
+        "checked_at_utc": "2026-09-18T13:54:33.964892+00:00",
         "sources": {
           "candidaturas": {
             "generated_at_utc": "2026-09-18T08:22:11.171831+00:00",
-            "age_hours": 0.159,
+            "age_hours": 5.54,
             "sla_hours": 12,
             "ok": true,
             "reason": null
           },
           "financas": {
-            "generated_at_utc": "2026-09-17T23:39:54.603227+00:00",
-            "age_hours": 8.864,
+            "generated_at_utc": "2026-09-18T13:48:38.919211+00:00",
+            "age_hours": 0.099,
             "sla_hours": 18,
             "ok": true,
             "reason": null
           },
           "camara": {
             "generated_at_utc": "2026-09-17T08:46:25.512727+00:00",
-            "age_hours": 23.755,
+            "age_hours": 29.136,
             "sla_hours": 36,
             "ok": true,
             "reason": null
