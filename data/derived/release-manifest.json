@@ -1,16 +1,16 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260918T183946Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-18T18:39:46.225342+00:00",
+  "data_release_id": "20260918T233815Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-18T23:38:15.878814+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "87a6ee38b3ea2e33b049536e572d5199110ba568",
+    "commit": "6df359cd95797b2bd6bf6a99b99b79fdff8cb027",
     "generated_at_utc": {
-      "candidaturas": "2026-09-18T18:33:51.903303+00:00",
-      "financas": "2026-09-18T13:48:38.919211+00:00",
+      "candidaturas": "2026-09-18T23:22:50.072398+00:00",
+      "financas": "2026-09-18T23:34:14.001223+00:00",
       "camara": "2026-09-18T13:41:15.040396+00:00"
     }
   },
@@ -25,8 +25,8 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82734,
-      "sha256": "58acdfbdc6c33290298be8d01b722cf1cdb979e837be83584189c0e9d3e7f233"
+      "bytes": 82724,
+      "sha256": "f8c0b4a047acaffce54701d1c49c9ad54fd5ffb43d52822da9aca6e827287932"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
@@ -40,18 +40,18 @@
     },
     {
       "path": "data/derived/receitas_por_fonte.csv",
-      "bytes": 137,
-      "sha256": "375845a18ec1ecaa3b701568c766e4c46ef0aff7229d7ebd4e6052f8058a6151"
+      "bytes": 136,
+      "sha256": "bcfd325d15d949ad48ad53b07a7a66b2c81ebd3a2a90dcb508f3d00452313836"
     },
     {
       "path": "data/derived/despesas_por_categoria.csv",
-      "bytes": 2244,
-      "sha256": "2576c8802585becb666c7e006716173101452db590adea5dfc18a04432317018"
+      "bytes": 2248,
+      "sha256": "fe141e77e37ef9ac6ac32c852ce15f38b6185d40037d6778868a92bd09bc43d7"
     },
     {
       "path": "docs/reports/latest.md",
-      "bytes": 1150,
-      "sha256": "6c9dd5f50618b2ecef1a594bc4aaf74863365a2dcb665c8382623908b3e886a7"
+      "bytes": 1149,
+      "sha256": "58556bee6350e0feb6a5a290053a7130e0046dbed2ad791ba3fa6d2a731209ec"
     }
   ]
 }

@@ -8,7 +8,7 @@
 
 ## Sumário executivo
 
-O catálogo reúne **20,060 registros de candidatura**. A camada financeira agrega **R$ 5.487.980.158,81** em receitas e **R$ 3.583.886.386,45** em despesas contratadas.
+O catálogo reúne **20,060 registros de candidatura**. A camada financeira agrega **R$ 5.584.888.348,00** em receitas e **R$ 3.614.839.437,95** em despesas contratadas.
 
 ## Candidaturas por cargo
 
@@ -24,12 +24,12 @@ O catálogo reúne **20,060 registros de candidatura**. A camada financeira agre
 
 - Gate de publicação: **APROVADO**.
 - Cobertura federal: **27/27 UFs**.
-- candidaturas: 0.098 h de idade; SLA 12 h; OK.
-- financas: 4.852 h de idade; SLA 18 h; OK.
-- camara: 4.975 h de idade; SLA 36 h; OK.
+- candidaturas: 0.257 h de idade; SLA 12 h; OK.
+- financas: 0.067 h de idade; SLA 18 h; OK.
+- camara: 9.95 h de idade; SLA 36 h; OK.
 
 ## Proveniência
 
-Fonte: `MSsanto/Elei-oes-2026` · branch `main` · commit `87a6ee38b3ea2e33b049536e572d5199110ba568`.
+Fonte: `MSsanto/Elei-oes-2026` · branch `main` · commit `6df359cd95797b2bd6bf6a99b99b79fdff8cb027`.
 
 Metodologia: `docs/METODOLOGIA.md`. Dicionário: `docs/DICIONARIO_METRICAS.md`.
