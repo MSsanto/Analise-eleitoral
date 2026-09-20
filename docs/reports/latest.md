@@ -24,12 +24,12 @@ O catálogo reúne **20,060 registros de candidatura**. A camada financeira agre
 
 - Gate de publicação: **APROVADO**.
 - Cobertura federal: **27/27 UFs**.
-- candidaturas: 0.132 h de idade; SLA 12 h; OK.
-- financas: 9.299 h de idade; SLA 18 h; OK.
-- camara: 14.72 h de idade; SLA 36 h; OK.
+- candidaturas: 5.03 h de idade; SLA 12 h; OK.
+- financas: 0.053 h de idade; SLA 18 h; OK.
+- camara: 19.618 h de idade; SLA 36 h; OK.
 
 ## Proveniência
 
-Fonte: `MSsanto/Elei-oes-2026` · branch `main` · commit `c723e44069e002f003d4e157ea11afdbe6a7bb50`.
+Fonte: `MSsanto/Elei-oes-2026` · branch `main` · commit `fb59c8804b6ef25246ca09aaa2f15ee86ef0c0dc`.
 
 Metodologia: `docs/METODOLOGIA.md`. Dicionário: `docs/DICIONARIO_METRICAS.md`.
