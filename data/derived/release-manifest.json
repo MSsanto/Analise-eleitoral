@@ -1,16 +1,16 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260920T181952Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-20T18:19:52.024623+00:00",
+  "data_release_id": "20260920T233604Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-20T23:36:04.926621+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "db4dabf3d5e34f1c43b436c0605f917cdf495cd3",
+    "commit": "28869dcbea6c4fb361a2a374b244df71637db756",
     "generated_at_utc": {
-      "candidaturas": "2026-09-20T18:13:46.781328+00:00",
-      "financas": "2026-09-20T13:41:27.458253+00:00",
+      "candidaturas": "2026-09-20T23:18:56.908835+00:00",
+      "financas": "2026-09-20T23:30:09.543169+00:00",
       "camara": "2026-09-20T18:14:31.097148+00:00"
     }
   },
@@ -25,8 +25,8 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82695,
-      "sha256": "4e071b9730240ee56044bcc47d8d297259eaa5fb448880ace7376753abc21b1f"
+      "bytes": 82741,
+      "sha256": "f122aa693694d9e0ebbe7c71de334352efe350387aa3f0a8c82d2e65c590ebb7"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
@@ -41,17 +41,17 @@
     {
       "path": "data/derived/receitas_por_fonte.csv",
       "bytes": 138,
-      "sha256": "8c6cac287f047c3470f3d4bace0b03e2a3e54567ba3041628a2539785861789b"
+      "sha256": "34b35952d0a71495274209739510ca0dfdf2d2c19632b438efc5075627d996b0"
     },
     {
       "path": "data/derived/despesas_por_categoria.csv",
-      "bytes": 2248,
-      "sha256": "918b212d8fdd0fd74339e444e3620de37134fd60f4279462a71f14c8faf41097"
+      "bytes": 2243,
+      "sha256": "492dcf59763bb449f82fa3955a78b1c7701e3f7d96de551e2376f2808172f266"
     },
     {
       "path": "docs/reports/latest.md",
-      "bytes": 1149,
-      "sha256": "1b8427a90a71cb958ea88a1ec73015a270b599de4c174fe5839f2d3aca7cecb5"
+      "bytes": 1150,
+      "sha256": "2897dba5bca885b87d2e9c96a4311e59c74028529805cb016c363ccedbbb6b52"
     }
   ]
 }
