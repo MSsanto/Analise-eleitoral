@@ -1,17 +1,17 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260920T134436Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-20T13:44:36.717207+00:00",
+  "data_release_id": "20260920T181952Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-20T18:19:52.024623+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "fb59c8804b6ef25246ca09aaa2f15ee86ef0c0dc",
+    "commit": "db4dabf3d5e34f1c43b436c0605f917cdf495cd3",
     "generated_at_utc": {
-      "candidaturas": "2026-09-20T08:42:48.711493+00:00",
+      "candidaturas": "2026-09-20T18:13:46.781328+00:00",
       "financas": "2026-09-20T13:41:27.458253+00:00",
-      "camara": "2026-09-19T18:07:32.246263+00:00"
+      "camara": "2026-09-20T18:14:31.097148+00:00"
     }
   },
   "quality": {
@@ -25,18 +25,18 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82694,
-      "sha256": "82f933bbfbe444e07e20dfeb75158d7dca09a326c1f994ae9f4579ef6837e344"
+      "bytes": 82695,
+      "sha256": "4e071b9730240ee56044bcc47d8d297259eaa5fb448880ace7376753abc21b1f"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
-      "bytes": 162,
-      "sha256": "5fd94cf12848b7835273d6523b51e8d2cb431fef84a260d9408fcb9ed86b60a5"
+      "bytes": 163,
+      "sha256": "934e0d172ad478172eaa92fd6db19c314ee60e8d0c3931485663861b5a1b1f7d"
     },
     {
       "path": "data/derived/deputado_estadual_por_uf.csv",
-      "bytes": 437,
-      "sha256": "400786ed4e5dfe65e6ced9ceea576032c0062ae45934ddff7e6df240f69a18a8"
+      "bytes": 435,
+      "sha256": "773fd8897f9c5cf39f85824839074074d7d950dd7d0e2f9b41c2b4f81f13c077"
     },
     {
       "path": "data/derived/receitas_por_fonte.csv",
@@ -50,8 +50,8 @@
     },
     {
       "path": "docs/reports/latest.md",
-      "bytes": 1150,
-      "sha256": "e6c44d336ab84c425b9d32bf9f720bad613c002955fb1ec8de9b00258b101dee"
+      "bytes": 1149,
+      "sha256": "1b8427a90a71cb958ea88a1ec73015a270b599de4c174fe5839f2d3aca7cecb5"
     }
   ]
 }

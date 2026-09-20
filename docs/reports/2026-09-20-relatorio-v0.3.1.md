@@ -8,13 +8,13 @@
 
 ## Sumário executivo
 
-O catálogo reúne **20,060 registros de candidatura**. A camada financeira agrega **R$ 5.662.847.203,74** em receitas e **R$ 3.639.294.391,85** em despesas contratadas.
+O catálogo reúne **20,061 registros de candidatura**. A camada financeira agrega **R$ 5.662.847.203,74** em receitas e **R$ 3.639.294.391,85** em despesas contratadas.
 
 ## Candidaturas por cargo
 
 | Cargo | Registros | Participação |
 |---|---:|---:|
-| Deputado Estadual/Distrital | 11,725 | 58.45% |
+| Deputado Estadual/Distrital | 11,726 | 58.45% |
 | Deputado Federal | 7,801 | 38.89% |
 | Senador | 319 | 1.59% |
 | Governador | 201 | 1.00% |
@@ -24,12 +24,12 @@ O catálogo reúne **20,060 registros de candidatura**. A camada financeira agre
 
 - Gate de publicação: **APROVADO**.
 - Cobertura federal: **27/27 UFs**.
-- candidaturas: 5.03 h de idade; SLA 12 h; OK.
-- financas: 0.053 h de idade; SLA 18 h; OK.
-- camara: 19.618 h de idade; SLA 36 h; OK.
+- candidaturas: 0.101 h de idade; SLA 12 h; OK.
+- financas: 4.64 h de idade; SLA 18 h; OK.
+- camara: 0.089 h de idade; SLA 36 h; OK.
 
 ## Proveniência
 
-Fonte: `MSsanto/Elei-oes-2026` · branch `main` · commit `fb59c8804b6ef25246ca09aaa2f15ee86ef0c0dc`.
+Fonte: `MSsanto/Elei-oes-2026` · branch `main` · commit `db4dabf3d5e34f1c43b436c0605f917cdf495cd3`.
 
 Metodologia: `docs/METODOLOGIA.md`. Dicionário: `docs/DICIONARIO_METRICAS.md`.
