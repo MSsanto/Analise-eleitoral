@@ -2,14 +2,14 @@
   "meta": {
     "analysis_schema_version": 1,
     "pipeline_version": "0.3.1",
-    "generated_at_utc": "2026-09-22T08:50:01.498484+00:00",
+    "generated_at_utc": "2026-09-22T14:13:12.773121+00:00",
     "snapshot_date": "2026-09-22",
     "source_repository": "MSsanto/Elei-oes-2026",
     "source_branch": "main",
-    "source_commit": "2cc03b75ac374625d11217b732dc41f1d688c654",
+    "source_commit": "e3f408e2dacc75650ce3435fa14720051e6f0a2f",
     "source_generated_at_utc": {
       "candidaturas": "2026-09-22T08:40:20.947196+00:00",
-      "financas": "2026-09-22T00:16:49.663138+00:00",
+      "financas": "2026-09-22T14:10:57.919147+00:00",
       "camara": "2026-09-22T00:12:02.953761+00:00"
     }
   },
@@ -2690,66 +2690,66 @@
     }
   },
   "financas": {
-    "total_receitas": 5713744733.84,
-    "total_despesas_contratadas": 3664116784.5,
+    "total_receitas": 5763156297.84,
+    "total_despesas_contratadas": 3693983561.38,
     "total_despesas_pagas": 0.0,
-    "candidaturas_com_financas_fonte": 16396,
-    "registros_financeiros_vinculados_catalogo": 16396,
+    "candidaturas_com_financas_fonte": 16431,
+    "registros_financeiros_vinculados_catalogo": 16431,
     "registros_financeiros_sem_vinculo_catalogo": 0,
-    "cobertura_financeira_catalogo_percentual": 81.7307,
-    "despesas_contratadas_sobre_receitas_percentual": 64.1281,
+    "cobertura_financeira_catalogo_percentual": 81.9052,
+    "despesas_contratadas_sobre_receitas_percentual": 64.0965,
     "receitas_por_fonte": [
       {
         "categoria": "FUNDO ESPECIAL",
-        "valor": 4724290910.8,
-        "percentual": 82.6829
+        "valor": 4748625618.58,
+        "percentual": 82.3963
       },
       {
         "categoria": "OUTROS RECURSOS",
-        "valor": 590007469.7,
-        "percentual": 10.3261
+        "valor": 607914278.13,
+        "percentual": 10.5483
       },
       {
         "categoria": "FUNDO PARTIDARIO",
-        "valor": 399446353.34,
-        "percentual": 6.991
+        "valor": 406616401.13,
+        "percentual": 7.0554
       }
     ],
     "receitas_por_origem": [
       {
         "categoria": "Recursos de partido político",
-        "valor": 5157904421.19,
-        "percentual": 90.2719
+        "valor": 5191830489.89,
+        "percentual": 90.0866
       },
       {
         "categoria": "Recursos de pessoas físicas",
-        "valor": 367054173.05,
-        "percentual": 6.4241
+        "valor": 378132982.96,
+        "percentual": 6.5612
       },
       {
         "categoria": "Recursos próprios",
-        "valor": 96078612.35,
-        "percentual": 1.6815
+        "valor": 97885921.02,
+        "percentual": 1.6985
       },
       {
         "categoria": "Recursos de outros candidatos",
-        "valor": 76668884.25,
-        "percentual": 1.3418
+        "valor": 78998598.33,
+        "percentual": 1.3708
       },
       {
         "categoria": "Recursos de Financiamento Coletivo",
-        "valor": 13599731.65,
-        "percentual": 0.238
+        "valor": 13837356.29,
+        "percentual": 0.2401
       },
       {
         "categoria": "Doações pela Internet",
-        "valor": 1276681.82,
-        "percentual": 0.0223
+        "valor": 1338114.82,
+        "percentual": 0.0232
       },
       {
         "categoria": "Recursos de origens não identificadas",
-        "valor": 1147835.94,
-        "percentual": 0.0201
+        "valor": 1118440.94,
+        "percentual": 0.0194
       },
       {
         "categoria": "Fundo Especial de Financiamento de Campanha",
@@ -2770,202 +2770,202 @@
     "despesas_por_categoria": [
       {
         "categoria": "Publicidade por materiais impressos",
-        "valor": 636042711.63,
-        "percentual": 17.3587
+        "valor": 641853826.51,
+        "percentual": 17.3757
       },
       {
         "categoria": "Serviços prestados por terceiros",
-        "valor": 593117562.51,
-        "percentual": 16.1872
+        "valor": 596662694.16,
+        "percentual": 16.1523
       },
       {
         "categoria": "Atividades de militância e mobilização de rua",
-        "valor": 456879838.8,
-        "percentual": 12.469
+        "valor": 459822333.12,
+        "percentual": 12.4479
       },
       {
         "categoria": "Despesas com pessoal",
-        "valor": 397422811.51,
-        "percentual": 10.8463
+        "valor": 400059496.24,
+        "percentual": 10.83
       },
       {
         "categoria": "Despesa com Impulsionamento de Conteúdos",
-        "valor": 237145356.39,
-        "percentual": 6.4721
+        "valor": 242185745.68,
+        "percentual": 6.5562
       },
       {
         "categoria": "Serviços advocatícios",
-        "valor": 220361427.9,
-        "percentual": 6.014
+        "valor": 221366927.9,
+        "percentual": 5.9926
       },
       {
         "categoria": "Produção de programas de rádio, televisão ou vídeo",
-        "valor": 199474617.11,
-        "percentual": 5.444
+        "valor": 201198217.11,
+        "percentual": 5.4466
       },
       {
         "categoria": "Publicidade por adesivos",
-        "valor": 196377118.22,
-        "percentual": 5.3595
+        "valor": 198671037.62,
+        "percentual": 5.3782
       },
       {
         "categoria": "Cessão ou locação de veículos",
-        "valor": 147283596,
-        "percentual": 4.0196
+        "valor": 147871005.15,
+        "percentual": 4.003
       },
       {
         "categoria": "Serviços contábeis",
-        "valor": 125897984.88,
-        "percentual": 3.436
+        "valor": 126051284.88,
+        "percentual": 3.4123
       },
       {
         "categoria": "Diversas a especificar",
-        "valor": 78997664.31,
-        "percentual": 2.156
+        "valor": 79295867.73,
+        "percentual": 2.1466
       },
       {
         "categoria": "Locação/cessão de bens imóveis",
-        "valor": 66439483.55,
-        "percentual": 1.8132
+        "valor": 66534792.55,
+        "percentual": 1.8012
       },
       {
         "categoria": "Doações financeiras a outros candidatos/partidos",
-        "valor": 46412289.8,
-        "percentual": 1.2667
+        "valor": 47981789.8,
+        "percentual": 1.2989
       },
       {
         "categoria": "Despesas com transporte ou deslocamento",
-        "valor": 41073325.22,
-        "percentual": 1.121
+        "valor": 41485361.33,
+        "percentual": 1.1231
       },
       {
         "categoria": "Eventos de promoção da candidatura",
-        "valor": 31774077.88,
-        "percentual": 0.8672
+        "valor": 31872788.72,
+        "percentual": 0.8628
       },
       {
         "categoria": "Combustíveis e lubrificantes",
-        "valor": 29584683.07,
-        "percentual": 0.8074
+        "valor": 30203639.06,
+        "percentual": 0.8176
       },
       {
         "categoria": "Publicidade por carros de som",
-        "valor": 26392516.55,
-        "percentual": 0.7203
+        "valor": 26401471.55,
+        "percentual": 0.7147
       },
       {
         "categoria": "Produção de jingles, vinhetas e slogans",
-        "valor": 20820927.41,
-        "percentual": 0.5682
-      },
-      {
-        "categoria": "Serviços próprios prestados por terceiros",
-        "valor": 18819983.34,
-        "percentual": 0.5136
+        "valor": 20942238.57,
+        "percentual": 0.5669
       },
       {
         "categoria": "Locação/cessão de bens móveis (exceto veículos)",
-        "valor": 18777688.18,
-        "percentual": 0.5125
+        "valor": 18831034.18,
+        "percentual": 0.5098
+      },
+      {
+        "categoria": "Serviços próprios prestados por terceiros",
+        "valor": 18817913.84,
+        "percentual": 0.5094
       },
       {
         "categoria": "Pesquisas ou testes eleitorais",
-        "valor": 18172523.25,
-        "percentual": 0.496
+        "valor": 18212523.25,
+        "percentual": 0.493
       },
       {
         "categoria": "Correspondências e despesas postais",
-        "valor": 11461743.57,
-        "percentual": 0.3128
+        "valor": 11855108.99,
+        "percentual": 0.3209
       },
       {
         "categoria": "Criação e inclusão de páginas na internet",
-        "valor": 10699126.23,
-        "percentual": 0.292
+        "valor": 10723938.12,
+        "percentual": 0.2903
       },
       {
         "categoria": "Alimentação",
-        "valor": 8239000.15,
-        "percentual": 0.2249
+        "valor": 8402951.27,
+        "percentual": 0.2275
       },
       {
         "categoria": "Publicidade por jornais e revistas",
-        "valor": 6988877.03,
-        "percentual": 0.1907
+        "valor": 7083581.97,
+        "percentual": 0.1918
       },
       {
         "categoria": "Pré-instalação física de comitê de campanha",
-        "valor": 5047919.09,
-        "percentual": 0.1378
+        "valor": 5050273.67,
+        "percentual": 0.1367
       },
       {
         "categoria": "Comícios",
         "valor": 3967949.37,
-        "percentual": 0.1083
+        "percentual": 0.1074
       },
       {
         "categoria": "Materiais de expediente",
-        "valor": 3290089.85,
-        "percentual": 0.0898
+        "valor": 3375937.3,
+        "percentual": 0.0914
       },
       {
         "categoria": "Água",
-        "valor": 1720093.86,
-        "percentual": 0.0469
+        "valor": 1742714.58,
+        "percentual": 0.0472
       },
       {
         "categoria": "Segurança e prevenção, repressão e combate à violência política",
         "valor": 1534141.96,
-        "percentual": 0.0419
+        "percentual": 0.0415
       },
       {
         "categoria": "Passagem Aérea",
         "valor": 1046395,
-        "percentual": 0.0286
+        "percentual": 0.0283
       },
       {
         "categoria": "Despesas com Hospedagem",
-        "valor": 1035466.83,
+        "valor": 1044855.63,
         "percentual": 0.0283
       },
       {
         "categoria": "Aquisição/Doação de bens móveis ou imóveis",
-        "valor": 730363.99,
-        "percentual": 0.0199
+        "valor": 732613.99,
+        "percentual": 0.0198
       },
       {
         "categoria": "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito",
-        "valor": 304851.94,
-        "percentual": 0.0083
+        "valor": 311105.87,
+        "percentual": 0.0084
       },
       {
         "categoria": "Taxa de Administração de Financiamento Coletivo",
-        "valor": 273664.6,
+        "valor": 278117.86,
         "percentual": 0.0075
       },
       {
         "categoria": "Reembolsos de gastos realizados por eleitores",
         "valor": 182106.61,
-        "percentual": 0.005
+        "percentual": 0.0049
       },
       {
         "categoria": "Despesa com geradores de energia",
-        "valor": 120223.75,
+        "valor": 121844.75,
         "percentual": 0.0033
       },
       {
         "categoria": "Impostos, contribuições e taxas",
-        "valor": 105332.57,
-        "percentual": 0.0029
+        "valor": 105233.16,
+        "percentual": 0.0028
       },
       {
         "categoria": "Telefone",
-        "valor": 61181.51,
+        "valor": 61216.51,
         "percentual": 0.0017
       },
       {
         "categoria": "Energia elétrica",
-        "valor": 28995.43,
+        "valor": 30412.17,
         "percentual": 0.0008
       },
       {
@@ -2974,189 +2974,189 @@
         "percentual": 0.0003
       }
     ],
-    "concentracao_top10_despesas_percentual": 87.6065,
+    "concentracao_top10_despesas_percentual": 87.5949,
     "distribuicao_por_cargo": {
       "Deputado Federal": {
-        "registros": 6526,
-        "receitas": 3090331110.740015,
-        "despesas_contratadas": 1849236318.5199966
+        "registros": 6530,
+        "receitas": 3105368925.300016,
+        "despesas_contratadas": 1863882061.7599974
       },
       "Deputado Estadual/Distrital": {
-        "registros": 9416,
-        "receitas": 1515425206.6399941,
-        "despesas_contratadas": 953790909.3700033
+        "registros": 9447,
+        "receitas": 1530004353.9199946,
+        "despesas_contratadas": 961349864.5800035
       },
       "Senador": {
         "registros": 279,
-        "receitas": 465300148.99000007,
-        "despesas_contratadas": 310384319.28000003
+        "receitas": 468202507.5700001,
+        "despesas_contratadas": 312161556.50000006
       },
       "Governador": {
         "registros": 162,
-        "receitas": 521674961.1799999,
-        "despesas_contratadas": 395112525.1800001
+        "receitas": 523232851.07999986,
+        "despesas_contratadas": 400932070.18000025
       },
       "Presidente": {
         "registros": 13,
-        "receitas": 121013306.28999999,
-        "despesas_contratadas": 155592712.15
+        "receitas": 136347659.97,
+        "despesas_contratadas": 155658008.35999998
       }
     },
     "distribuicao_por_uf": {
       "SP": {
         "registros": 2046,
-        "receitas": 815096319.2600002,
-        "despesas_contratadas": 486074708.99000067
+        "receitas": 820269525.9800004,
+        "despesas_contratadas": 492715474.32000077
       },
-      "ES": {
-        "registros": 506,
-        "receitas": 122318805.92999995,
-        "despesas_contratadas": 75582007.07000004
+      "RN": {
+        "registros": 254,
+        "receitas": 97244344.30000003,
+        "despesas_contratadas": 83644278.46000001
+      },
+      "RJ": {
+        "registros": 1585,
+        "receitas": 460939832.39999884,
+        "despesas_contratadas": 276129837.06999993
       },
       "RS": {
         "registros": 909,
-        "receitas": 289475563.3699997,
-        "despesas_contratadas": 163799475.76999995
-      },
-      "CE": {
-        "registros": 552,
-        "receitas": 213343231.56999975,
-        "despesas_contratadas": 137631631.08999997
-      },
-      "PR": {
-        "registros": 937,
-        "receitas": 294358808.22000027,
-        "despesas_contratadas": 178830810.3799999
+        "receitas": 290652931.55999964,
+        "despesas_contratadas": 166485529.43999994
       },
       "MG": {
-        "registros": 1331,
-        "receitas": 467317558.93,
-        "despesas_contratadas": 255258171.48000017
+        "registros": 1340,
+        "receitas": 471748294.21,
+        "despesas_contratadas": 258146483.52000022
       },
-      "RJ": {
-        "registros": 1583,
-        "receitas": 457104897.61999875,
-        "despesas_contratadas": 274900527.6299999
+      "ES": {
+        "registros": 506,
+        "receitas": 122880968.32999995,
+        "despesas_contratadas": 75653251.92000005
       },
       "PA": {
-        "registros": 528,
-        "receitas": 173756260.24,
-        "despesas_contratadas": 89135044.90999998
+        "registros": 529,
+        "receitas": 173997252.68,
+        "despesas_contratadas": 90539156.50999998
       },
-      "AP": {
-        "registros": 260,
-        "receitas": 102138361.12999997,
-        "despesas_contratadas": 63452287.580000006
+      "MA": {
+        "registros": 476,
+        "receitas": 201927826.94000006,
+        "despesas_contratadas": 134155489.95999992
+      },
+      "PR": {
+        "registros": 939,
+        "receitas": 297783154.3500002,
+        "despesas_contratadas": 179401595.14999992
       },
       "DF": {
-        "registros": 519,
-        "receitas": 139527138.69000024,
-        "despesas_contratadas": 83455647.87999998
+        "registros": 520,
+        "receitas": 140698770.08000022,
+        "despesas_contratadas": 83474619.89
       },
-      "RN": {
-        "registros": 253,
-        "receitas": 97178243.37000003,
-        "despesas_contratadas": 83261387.87
-      },
-      "PE": {
-        "registros": 764,
-        "receitas": 230310951.74999997,
-        "despesas_contratadas": 158240550.22999996
-      },
-      "TO": {
-        "registros": 285,
-        "receitas": 107706610.82000011,
-        "despesas_contratadas": 68360289.05999999
-      },
-      "RR": {
-        "registros": 338,
-        "receitas": 99804872.05999988,
-        "despesas_contratadas": 69152542.90000002
-      },
-      "AL": {
-        "registros": 195,
-        "receitas": 109979625.13000001,
-        "despesas_contratadas": 65989623.09000001
-      },
-      "GO": {
-        "registros": 710,
-        "receitas": 197330416.65999985,
-        "despesas_contratadas": 124688996.99000002
-      },
-      "PB": {
-        "registros": 349,
-        "receitas": 134803328.64999998,
-        "despesas_contratadas": 102903464.55999997
+      "BA": {
+        "registros": 1014,
+        "receitas": 317235433.5500013,
+        "despesas_contratadas": 212640784.31999978
       },
       "MT": {
         "registros": 367,
-        "receitas": 128500609.45000006,
-        "despesas_contratadas": 101341061.62999998
+        "receitas": 129530005.95000006,
+        "despesas_contratadas": 101839737.34999998
       },
-      "BA": {
-        "registros": 1009,
-        "receitas": 315863452.95000124,
-        "despesas_contratadas": 207589843.40999976
+      "PB": {
+        "registros": 349,
+        "receitas": 135764338.64999998,
+        "despesas_contratadas": 103024958.88999997
+      },
+      "PE": {
+        "registros": 765,
+        "receitas": 231985742.33,
+        "despesas_contratadas": 159101474.60999998
+      },
+      "GO": {
+        "registros": 711,
+        "receitas": 199488338.21999985,
+        "despesas_contratadas": 126361832.22000003
+      },
+      "AL": {
+        "registros": 195,
+        "receitas": 110174125.13000001,
+        "despesas_contratadas": 66239738.24000001
       },
       "SC": {
         "registros": 609,
-        "receitas": 188805997.04999995,
-        "despesas_contratadas": 131897783.12999992
+        "receitas": 189319796.39999998,
+        "despesas_contratadas": 132211658.8799999
       },
-      "MA": {
-        "registros": 475,
-        "receitas": 201329471.94000006,
-        "despesas_contratadas": 133574963.44999991
+      "CE": {
+        "registros": 558,
+        "receitas": 213947162.62999973,
+        "despesas_contratadas": 140203296.75999996
+      },
+      "RR": {
+        "registros": 340,
+        "receitas": 100582622.0599999,
+        "despesas_contratadas": 69210706.77000003
+      },
+      "TO": {
+        "registros": 285,
+        "receitas": 108175510.82000011,
+        "despesas_contratadas": 68910640.82000001
+      },
+      "AP": {
+        "registros": 260,
+        "receitas": 102228361.12999997,
+        "despesas_contratadas": 63490426.62
       },
       "AC": {
         "registros": 248,
-        "receitas": 95622691.75000001,
-        "despesas_contratadas": 42499533.28000001
+        "receitas": 96618755.85000001,
+        "despesas_contratadas": 42665398.280000016
       },
       "AM": {
-        "registros": 360,
-        "receitas": 134605360.39,
-        "despesas_contratadas": 76886096.78
+        "registros": 361,
+        "receitas": 135075740.39,
+        "despesas_contratadas": 77157683.61000001
       },
       "SE": {
         "registros": 310,
-        "receitas": 112905605.91000001,
-        "despesas_contratadas": 89422968.58000001
+        "receitas": 113252800.91000001,
+        "despesas_contratadas": 89579417.42
       },
       "PI": {
         "registros": 284,
-        "receitas": 132409540.68000002,
-        "despesas_contratadas": 91293580.44999997
+        "receitas": 132932338.68000002,
+        "despesas_contratadas": 91651210.01999997
       },
       "MS": {
         "registros": 331,
-        "receitas": 105253591.06999998,
-        "despesas_contratadas": 70567465.36999999
+        "receitas": 105663981.85999998,
+        "despesas_contratadas": 70776248.59999998
       },
       "BR": {
         "registros": 13,
-        "receitas": 121013306.28999999,
-        "despesas_contratadas": 155592712.15
+        "receitas": 136347659.97,
+        "despesas_contratadas": 155658008.35999998
       },
       "RO": {
-        "registros": 325,
-        "receitas": 125884112.95999995,
-        "despesas_contratadas": 82733608.78999996
+        "registros": 327,
+        "receitas": 126690682.47999994,
+        "despesas_contratadas": 82914623.36999996
       }
     },
     "receitas_por_candidatura": {
-      "n": 16396,
-      "mediana": 75518.64,
-      "p90": 900000.0,
-      "gini": 0.7607
+      "n": 16431,
+      "mediana": 76382.98,
+      "p90": 905215.96,
+      "gini": 0.7608
     },
     "despesas_por_candidatura": {
-      "n": 16396,
-      "mediana": 36742.1,
-      "p90": 560073.9,
-      "gini": 0.7986
+      "n": 16431,
+      "mediana": 36852.25,
+      "p90": 562229.46,
+      "gini": 0.7989
     },
-    "fornecedores_registros": 431860
+    "fornecedores_registros": 435256
   },
   "recortes": {
     "deputado_estadual_por_uf": [
@@ -3489,25 +3489,25 @@
       "reasons": [],
       "freshness": {
         "ok": true,
-        "checked_at_utc": "2026-09-22T08:50:01.519174+00:00",
+        "checked_at_utc": "2026-09-22T14:13:12.783957+00:00",
         "sources": {
           "candidaturas": {
             "generated_at_utc": "2026-09-22T08:40:20.947196+00:00",
-            "age_hours": 0.161,
+            "age_hours": 5.548,
             "sla_hours": 12,
             "ok": true,
             "reason": null
           },
           "financas": {
-            "generated_at_utc": "2026-09-22T00:16:49.663138+00:00",
-            "age_hours": 8.553,
+            "generated_at_utc": "2026-09-22T14:10:57.919147+00:00",
+            "age_hours": 0.037,
             "sla_hours": 18,
             "ok": true,
             "reason": null
           },
           "camara": {
             "generated_at_utc": "2026-09-22T00:12:02.953761+00:00",
-            "age_hours": 8.633,
+            "age_hours": 14.019,
             "sla_hours": 36,
             "ok": true,
             "reason": null
