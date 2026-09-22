@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T16:02:57.081504Z",
+  "generated_at": "2026-09-22T00:19:03.128601Z",
   "component": "analise_eleitoral",
   "status": "ok",
   "stage": "complete",
   "analyze_outcome": "success",
   "validate_outcome": "success",
   "event": "schedule",
-  "run_id": "35622931277",
-  "run_number": "64",
+  "run_id": "35671407996",
+  "run_number": "65",
   "message": "Geração e validação concluídas com sucesso."
 }
