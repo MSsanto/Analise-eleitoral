@@ -2,15 +2,15 @@
   "meta": {
     "analysis_schema_version": 1,
     "pipeline_version": "0.3.1",
-    "generated_at_utc": "2026-09-23T08:51:35.027961+00:00",
+    "generated_at_utc": "2026-09-23T14:28:32.904070+00:00",
     "snapshot_date": "2026-09-23",
     "source_repository": "MSsanto/Elei-oes-2026",
     "source_branch": "main",
-    "source_commit": "973ea9fb511e50c4c0ea72afc1bfdd8a9d6d03c0",
+    "source_commit": "e06ffa07d4b02624c5d42ab51c8df93e72fe2acc",
     "source_generated_at_utc": {
-      "candidaturas": "2026-09-22T23:38:39.271532+00:00",
-      "financas": "2026-09-22T23:48:26.500171+00:00",
-      "camara": "2026-09-22T00:12:02.953761+00:00"
+      "candidaturas": "2026-09-23T14:18:59.167845+00:00",
+      "financas": "2026-09-23T14:25:47.296121+00:00",
+      "camara": "2026-09-23T08:42:46.826840+00:00"
     }
   },
   "candidaturas": {
@@ -3489,25 +3489,25 @@
       "reasons": [],
       "freshness": {
         "ok": true,
-        "checked_at_utc": "2026-09-23T08:51:35.046304+00:00",
+        "checked_at_utc": "2026-09-23T14:28:32.922016+00:00",
         "sources": {
           "candidaturas": {
-            "generated_at_utc": "2026-09-22T23:38:39.271532+00:00",
-            "age_hours": 9.215,
+            "generated_at_utc": "2026-09-23T14:18:59.167845+00:00",
+            "age_hours": 0.159,
             "sla_hours": 12,
             "ok": true,
             "reason": null
           },
           "financas": {
-            "generated_at_utc": "2026-09-22T23:48:26.500171+00:00",
-            "age_hours": 9.052,
+            "generated_at_utc": "2026-09-23T14:25:47.296121+00:00",
+            "age_hours": 0.046,
             "sla_hours": 18,
             "ok": true,
             "reason": null
           },
           "camara": {
-            "generated_at_utc": "2026-09-22T00:12:02.953761+00:00",
-            "age_hours": 32.659,
+            "generated_at_utc": "2026-09-23T08:42:46.826840+00:00",
+            "age_hours": 5.763,
             "sla_hours": 36,
             "ok": true,
             "reason": null
