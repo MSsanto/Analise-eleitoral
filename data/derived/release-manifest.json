@@ -1,16 +1,16 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260923T191554Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-23T19:15:54.793337+00:00",
+  "data_release_id": "20260924T000034Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-24T00:00:34.225222+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "05ac0123c33ae258e4b660a310e5cfba48685161",
+    "commit": "b03084e858598df2f67b29f894f0f7f9e2cef260",
     "generated_at_utc": {
       "candidaturas": "2026-09-23T19:07:34.873924+00:00",
-      "financas": "2026-09-23T14:25:47.296121+00:00",
+      "financas": "2026-09-23T23:57:06.814290+00:00",
       "camara": "2026-09-23T08:42:46.826840+00:00"
     }
   },
@@ -25,8 +25,8 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82745,
-      "sha256": "fcbeb58089100e603768f101b5a9b8144f0a541e82c6c5affa92b6b84927a1f1"
+      "bytes": 82737,
+      "sha256": "dfd4ae3f0c73bb28d7035f3193463a07a3e81ca4d0526486756bb658b624cf08"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
@@ -40,18 +40,18 @@
     },
     {
       "path": "data/derived/receitas_por_fonte.csv",
-      "bytes": 138,
-      "sha256": "8dfbbf205ca73fec9808efc9b05eba43f5cdd6f5dac34695cf922fe09188fe3c"
+      "bytes": 137,
+      "sha256": "831853bc76126c6e1fc0e507c4904000b5deee4e8d792e29525378218b903d21"
     },
     {
       "path": "data/derived/despesas_por_categoria.csv",
-      "bytes": 2246,
-      "sha256": "1d51bd66e5d6c7ebfff2a0ab22f028d0b3d3ae1ddc32f498630bf7b33319f25a"
+      "bytes": 2251,
+      "sha256": "6271ce9ae38cb8e06ed16d9498bc9ff4f11f5b166c8a7ff30918c22c0c4bb055"
     },
     {
       "path": "docs/reports/latest.md",
       "bytes": 1151,
-      "sha256": "51244bd62f5da494e45b6d71ab3010a5128291f1aa199f146daa1abb3a0f362a"
+      "sha256": "d2ceb5a8d63cd55810d6e931eb6e18af309bab411fd750c9bd61a4784fde3f57"
     }
   ]
 }
