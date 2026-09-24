@@ -2,35 +2,35 @@
   "meta": {
     "analysis_schema_version": 1,
     "pipeline_version": "0.3.1",
-    "generated_at_utc": "2026-09-24T00:00:34.225222+00:00",
+    "generated_at_utc": "2026-09-24T08:47:09.458588+00:00",
     "snapshot_date": "2026-09-24",
     "source_repository": "MSsanto/Elei-oes-2026",
     "source_branch": "main",
-    "source_commit": "b03084e858598df2f67b29f894f0f7f9e2cef260",
+    "source_commit": "ab223a588d0bdecfb60a60e8545af98d7c07f2ef",
     "source_generated_at_utc": {
-      "candidaturas": "2026-09-23T19:07:34.873924+00:00",
+      "candidaturas": "2026-09-24T08:35:26.884403+00:00",
       "financas": "2026-09-23T23:57:06.814290+00:00",
       "camara": "2026-09-23T08:42:46.826840+00:00"
     }
   },
   "candidaturas": {
-    "candidaturas_total": 20061,
+    "candidaturas_total": 20062,
     "ids_duplicados": 0,
     "candidaturas_por_cargo": [
       {
         "categoria": "Deputado Estadual/Distrital",
         "total": 11726,
-        "percentual": 58.4517
+        "percentual": 58.4488
       },
       {
         "categoria": "Deputado Federal",
-        "total": 7801,
-        "percentual": 38.8864
+        "total": 7802,
+        "percentual": 38.8894
       },
       {
         "categoria": "Senador",
         "total": 319,
-        "percentual": 1.5902
+        "percentual": 1.5901
       },
       {
         "categoria": "Governador",
@@ -46,133 +46,133 @@
     "candidaturas_por_uf": [
       {
         "categoria": "SP",
-        "total": 2585,
-        "percentual": 12.8857
+        "total": 2586,
+        "percentual": 12.89
       },
       {
         "categoria": "RJ",
         "total": 2007,
-        "percentual": 10.0045
+        "percentual": 10.004
       },
       {
         "categoria": "MG",
         "total": 1783,
-        "percentual": 8.8879
+        "percentual": 8.8874
       },
       {
         "categoria": "BA",
         "total": 1195,
-        "percentual": 5.9568
+        "percentual": 5.9565
       },
       {
         "categoria": "PR",
         "total": 1062,
-        "percentual": 5.2939
+        "percentual": 5.2936
       },
       {
         "categoria": "RS",
         "total": 1020,
-        "percentual": 5.0845
+        "percentual": 5.0842
       },
       {
         "categoria": "PE",
         "total": 929,
-        "percentual": 4.6309
+        "percentual": 4.6306
       },
       {
         "categoria": "GO",
         "total": 876,
-        "percentual": 4.3667
+        "percentual": 4.3665
       },
       {
         "categoria": "PA",
         "total": 706,
-        "percentual": 3.5193
+        "percentual": 3.5191
       },
       {
         "categoria": "CE",
         "total": 688,
-        "percentual": 3.4295
+        "percentual": 3.4294
       },
       {
         "categoria": "SC",
         "total": 666,
-        "percentual": 3.3199
+        "percentual": 3.3197
       },
       {
         "categoria": "DF",
         "total": 629,
-        "percentual": 3.1354
+        "percentual": 3.1353
       },
       {
         "categoria": "MA",
         "total": 586,
-        "percentual": 2.9211
+        "percentual": 2.9209
       },
       {
         "categoria": "ES",
         "total": 563,
-        "percentual": 2.8064
+        "percentual": 2.8063
       },
       {
         "categoria": "AM",
         "total": 449,
-        "percentual": 2.2382
+        "percentual": 2.2381
       },
       {
         "categoria": "MT",
         "total": 423,
-        "percentual": 2.1086
+        "percentual": 2.1085
       },
       {
         "categoria": "PB",
         "total": 419,
-        "percentual": 2.0886
+        "percentual": 2.0885
       },
       {
         "categoria": "RO",
         "total": 410,
-        "percentual": 2.0438
+        "percentual": 2.0437
       },
       {
         "categoria": "MS",
         "total": 395,
-        "percentual": 1.969
+        "percentual": 1.9689
       },
       {
         "categoria": "SE",
         "total": 380,
-        "percentual": 1.8942
+        "percentual": 1.8941
       },
       {
         "categoria": "RR",
         "total": 376,
-        "percentual": 1.8743
+        "percentual": 1.8742
       },
       {
         "categoria": "AC",
         "total": 363,
-        "percentual": 1.8095
+        "percentual": 1.8094
       },
       {
         "categoria": "PI",
         "total": 348,
-        "percentual": 1.7347
+        "percentual": 1.7346
       },
       {
         "categoria": "TO",
         "total": 328,
-        "percentual": 1.635
+        "percentual": 1.6349
       },
       {
         "categoria": "AP",
         "total": 299,
-        "percentual": 1.4905
+        "percentual": 1.4904
       },
       {
         "categoria": "RN",
         "total": 289,
-        "percentual": 1.4406
+        "percentual": 1.4405
       },
       {
         "categoria": "AL",
@@ -189,112 +189,112 @@
       {
         "categoria": "PL",
         "total": 1577,
-        "percentual": 7.861
+        "percentual": 7.8606
       },
       {
         "categoria": "MDB",
         "total": 1365,
-        "percentual": 6.8042
+        "percentual": 6.8039
       },
       {
         "categoria": "REPUBLICANOS",
         "total": 1274,
-        "percentual": 6.3506
+        "percentual": 6.3503
       },
       {
         "categoria": "NOVO",
         "total": 1269,
-        "percentual": 6.3257
+        "percentual": 6.3254
       },
       {
         "categoria": "PODE",
         "total": 1209,
-        "percentual": 6.0266
+        "percentual": 6.0263
       },
       {
         "categoria": "PDT",
         "total": 1095,
-        "percentual": 5.4584
+        "percentual": 5.4581
       },
       {
         "categoria": "PSD",
         "total": 1090,
-        "percentual": 5.4334
+        "percentual": 5.4332
       },
       {
         "categoria": "PT",
         "total": 1067,
-        "percentual": 5.3188
+        "percentual": 5.3185
       },
       {
         "categoria": "PSDB",
         "total": 1059,
-        "percentual": 5.2789
+        "percentual": 5.2786
       },
       {
         "categoria": "AVANTE",
         "total": 956,
-        "percentual": 4.7655
+        "percentual": 4.7652
       },
       {
         "categoria": "PSB",
         "total": 941,
-        "percentual": 4.6907
+        "percentual": 4.6905
       },
       {
         "categoria": "UNIÃO",
         "total": 825,
-        "percentual": 4.1125
+        "percentual": 4.1123
       },
       {
         "categoria": "PSOL",
         "total": 745,
-        "percentual": 3.7137
+        "percentual": 3.7135
       },
       {
         "categoria": "DC",
         "total": 727,
-        "percentual": 3.6239
+        "percentual": 3.6238
       },
       {
         "categoria": "PP",
         "total": 688,
-        "percentual": 3.4295
+        "percentual": 3.4294
       },
       {
         "categoria": "MOBILIZA",
         "total": 566,
-        "percentual": 2.8214
+        "percentual": 2.8213
       },
       {
         "categoria": "MISSÃO",
         "total": 525,
-        "percentual": 2.617
+        "percentual": 2.6169
       },
       {
         "categoria": "SOLIDARIEDADE",
         "total": 524,
-        "percentual": 2.612
+        "percentual": 2.6119
       },
       {
         "categoria": "PRD",
         "total": 498,
-        "percentual": 2.4824
+        "percentual": 2.4823
       },
       {
         "categoria": "AGIR",
-        "total": 445,
-        "percentual": 2.2182
+        "total": 446,
+        "percentual": 2.2231
       },
       {
         "categoria": "DEMOCRATA",
         "total": 429,
-        "percentual": 2.1385
+        "percentual": 2.1384
       },
       {
         "categoria": "REDE",
         "total": 341,
-        "percentual": 1.6998
+        "percentual": 1.6997
       },
       {
         "categoria": "PV",
@@ -309,7 +309,7 @@
       {
         "categoria": "PCDOB",
         "total": 146,
-        "percentual": 0.7278
+        "percentual": 0.7277
       },
       {
         "categoria": "UP",
@@ -341,12 +341,12 @@
       {
         "categoria": "MASCULINO",
         "total": 13003,
-        "percentual": 64.8173
+        "percentual": 64.8141
       },
       {
         "categoria": "FEMININO",
-        "total": 7057,
-        "percentual": 35.1777
+        "total": 7058,
+        "percentual": 35.1809
       },
       {
         "categoria": "NÃO DIVULGÁVEL",
@@ -358,17 +358,17 @@
       {
         "categoria": "BRANCA",
         "total": 10042,
-        "percentual": 50.0573
+        "percentual": 50.0548
       },
       {
         "categoria": "PARDA",
-        "total": 7002,
-        "percentual": 34.9035
+        "total": 7003,
+        "percentual": 34.9068
       },
       {
         "categoria": "PRETA",
         "total": 2723,
-        "percentual": 13.5736
+        "percentual": 13.5729
       },
       {
         "categoria": "INDÍGENA",
@@ -389,33 +389,33 @@
     "grau_instrucao": [
       {
         "categoria": "SUPERIOR COMPLETO",
-        "total": 11670,
-        "percentual": 58.1726
+        "total": 11671,
+        "percentual": 58.1747
       },
       {
         "categoria": "ENSINO MÉDIO COMPLETO",
         "total": 4366,
-        "percentual": 21.7636
+        "percentual": 21.7625
       },
       {
         "categoria": "SUPERIOR INCOMPLETO",
         "total": 2146,
-        "percentual": 10.6974
+        "percentual": 10.6968
       },
       {
         "categoria": "ENSINO MÉDIO INCOMPLETO",
         "total": 683,
-        "percentual": 3.4046
+        "percentual": 3.4044
       },
       {
         "categoria": "ENSINO FUNDAMENTAL INCOMPLETO",
         "total": 599,
-        "percentual": 2.9859
+        "percentual": 2.9857
       },
       {
         "categoria": "ENSINO FUNDAMENTAL COMPLETO",
         "total": 524,
-        "percentual": 2.612
+        "percentual": 2.6119
       },
       {
         "categoria": "LÊ E ESCREVE",
@@ -432,106 +432,106 @@
       {
         "categoria": "OUTROS",
         "total": 2723,
-        "percentual": 13.5736
+        "percentual": 13.5729
       },
       {
         "categoria": "EMPRESÁRIO",
         "total": 2509,
-        "percentual": 12.5069
+        "percentual": 12.5062
       },
       {
         "categoria": "ADVOGADO",
         "total": 1616,
-        "percentual": 8.0554
+        "percentual": 8.055
       },
       {
         "categoria": "DEPUTADO",
         "total": 870,
-        "percentual": 4.3368
+        "percentual": 4.3366
       },
       {
         "categoria": "VEREADOR",
         "total": 794,
-        "percentual": 3.9579
+        "percentual": 3.9577
       },
       {
         "categoria": "POLICIAL MILITAR",
-        "total": 553,
-        "percentual": 2.7566
+        "total": 554,
+        "percentual": 2.7614
       },
       {
         "categoria": "COMERCIANTE",
         "total": 544,
-        "percentual": 2.7117
+        "percentual": 2.7116
       },
       {
         "categoria": "MÉDICO",
-        "total": 541,
-        "percentual": 2.6968
+        "total": 542,
+        "percentual": 2.7016
       },
       {
         "categoria": "SERVIDOR PÚBLICO ESTADUAL",
         "total": 509,
-        "percentual": 2.5373
+        "percentual": 2.5371
       },
       {
         "categoria": "ESTUDANTE, BOLSISTA, ESTAGIÁRIO E ASSEMELHADOS",
         "total": 505,
-        "percentual": 2.5173
+        "percentual": 2.5172
       },
       {
         "categoria": "ADMINISTRADOR",
         "total": 497,
-        "percentual": 2.4774
+        "percentual": 2.4773
       },
       {
         "categoria": "APOSENTADO (EXCETO SERVIDOR PÚBLICO)",
         "total": 456,
-        "percentual": 2.2731
+        "percentual": 2.273
       },
       {
         "categoria": "SERVIDOR PÚBLICO MUNICIPAL",
         "total": 407,
-        "percentual": 2.0288
+        "percentual": 2.0287
       },
       {
         "categoria": "PROFESSOR DE ENSINO MÉDIO",
         "total": 375,
-        "percentual": 1.8693
+        "percentual": 1.8692
       },
       {
         "categoria": "JORNALISTA E REDATOR",
         "total": 347,
-        "percentual": 1.7297
+        "percentual": 1.7296
       },
       {
         "categoria": "PROFESSOR DE ENSINO SUPERIOR",
         "total": 278,
-        "percentual": 1.3858
+        "percentual": 1.3857
       },
       {
         "categoria": "PROFESSOR DE ENSINO FUNDAMENTAL",
         "total": 272,
-        "percentual": 1.3559
+        "percentual": 1.3558
       },
       {
         "categoria": "ENGENHEIRO",
         "total": 270,
-        "percentual": 1.3459
+        "percentual": 1.3458
       },
       {
         "categoria": "AGRICULTOR",
         "total": 246,
-        "percentual": 1.2263
+        "percentual": 1.2262
       },
       {
         "categoria": "DONA DE CASA",
         "total": 226,
-        "percentual": 1.1266
+        "percentual": 1.1265
       }
     ],
     "idade": {
-      "n": 20060,
+      "n": 20061,
       "min": 19.0,
       "mediana": 49.0,
       "media": 49.0097,
@@ -540,33 +540,33 @@
     "faixa_etaria": [
       {
         "categoria": "40-49",
-        "total": 6458,
-        "percentual": 32.1918
+        "total": 6459,
+        "percentual": 32.1952
       },
       {
         "categoria": "50-59",
         "total": 5537,
-        "percentual": 27.6008
+        "percentual": 27.5994
       },
       {
         "categoria": "30-39",
         "total": 3218,
-        "percentual": 16.0411
+        "percentual": 16.0403
       },
       {
         "categoria": "60-69",
         "total": 3012,
-        "percentual": 15.0142
+        "percentual": 15.0135
       },
       {
         "categoria": "<30",
         "total": 979,
-        "percentual": 4.8801
+        "percentual": 4.8799
       },
       {
         "categoria": "70+",
         "total": 856,
-        "percentual": 4.267
+        "percentual": 4.2668
       },
       {
         "categoria": "não informado",
@@ -619,13 +619,13 @@
         "grau_instrucao": [
           {
             "categoria": "SUPERIOR COMPLETO",
-            "total": 6578,
-            "percentual": 56.0976
+            "total": 6579,
+            "percentual": 56.1061
           },
           {
             "categoria": "ENSINO MÉDIO COMPLETO",
-            "total": 2791,
-            "percentual": 23.8018
+            "total": 2790,
+            "percentual": 23.7933
           },
           {
             "categoria": "SUPERIOR INCOMPLETO",
@@ -701,8 +701,8 @@
           },
           {
             "categoria": "MÉDICO",
-            "total": 279,
-            "percentual": 2.3793
+            "total": 280,
+            "percentual": 2.3879
           },
           {
             "categoria": "ESTUDANTE, BOLSISTA, ESTAGIÁRIO E ASSEMELHADOS",
@@ -1048,39 +1048,39 @@
         }
       },
       "Deputado Federal": {
-        "total": 7801,
+        "total": 7802,
         "genero": [
           {
             "categoria": "MASCULINO",
             "total": 4932,
-            "percentual": 63.2227
+            "percentual": 63.2146
           },
           {
             "categoria": "FEMININO",
-            "total": 2869,
-            "percentual": 36.7773
+            "total": 2870,
+            "percentual": 36.7854
           }
         ],
         "cor_raca": [
           {
             "categoria": "BRANCA",
             "total": 4034,
-            "percentual": 51.7113
+            "percentual": 51.7047
           },
           {
             "categoria": "PARDA",
-            "total": 2597,
-            "percentual": 33.2906
+            "total": 2598,
+            "percentual": 33.2992
           },
           {
             "categoria": "PRETA",
             "total": 1051,
-            "percentual": 13.4726
+            "percentual": 13.4709
           },
           {
             "categoria": "INDÍGENA",
             "total": 75,
-            "percentual": 0.9614
+            "percentual": 0.9613
           },
           {
             "categoria": "AMARELA",
@@ -1092,32 +1092,32 @@
           {
             "categoria": "SUPERIOR COMPLETO",
             "total": 4670,
-            "percentual": 59.8641
+            "percentual": 59.8564
           },
           {
             "categoria": "ENSINO MÉDIO COMPLETO",
-            "total": 1519,
-            "percentual": 19.4719
+            "total": 1520,
+            "percentual": 19.4822
           },
           {
             "categoria": "SUPERIOR INCOMPLETO",
             "total": 885,
-            "percentual": 11.3447
+            "percentual": 11.3432
           },
           {
             "categoria": "ENSINO MÉDIO INCOMPLETO",
             "total": 267,
-            "percentual": 3.4226
+            "percentual": 3.4222
           },
           {
             "categoria": "ENSINO FUNDAMENTAL INCOMPLETO",
             "total": 223,
-            "percentual": 2.8586
+            "percentual": 2.8582
           },
           {
             "categoria": "ENSINO FUNDAMENTAL COMPLETO",
             "total": 208,
-            "percentual": 2.6663
+            "percentual": 2.666
           },
           {
             "categoria": "LÊ E ESCREVE",
@@ -1129,234 +1129,234 @@
           {
             "categoria": "OUTROS",
             "total": 1013,
-            "percentual": 12.9855
+            "percentual": 12.9839
           },
           {
             "categoria": "EMPRESÁRIO",
             "total": 1008,
-            "percentual": 12.9214
+            "percentual": 12.9198
           },
           {
             "categoria": "ADVOGADO",
             "total": 671,
-            "percentual": 8.6015
+            "percentual": 8.6004
           },
           {
             "categoria": "DEPUTADO",
             "total": 316,
-            "percentual": 4.0508
+            "percentual": 4.0502
           },
           {
             "categoria": "VEREADOR",
             "total": 308,
-            "percentual": 3.9482
+            "percentual": 3.9477
           },
           {
             "categoria": "MÉDICO",
             "total": 237,
-            "percentual": 3.0381
+            "percentual": 3.0377
           },
           {
             "categoria": "ESTUDANTE, BOLSISTA, ESTAGIÁRIO E ASSEMELHADOS",
             "total": 229,
-            "percentual": 2.9355
+            "percentual": 2.9351
           },
           {
             "categoria": "POLICIAL MILITAR",
-            "total": 210,
-            "percentual": 2.692
+            "total": 211,
+            "percentual": 2.7044
           },
           {
             "categoria": "COMERCIANTE",
             "total": 209,
-            "percentual": 2.6791
+            "percentual": 2.6788
           },
           {
             "categoria": "ADMINISTRADOR",
             "total": 203,
-            "percentual": 2.6022
+            "percentual": 2.6019
           },
           {
             "categoria": "SERVIDOR PÚBLICO ESTADUAL",
             "total": 183,
-            "percentual": 2.3459
+            "percentual": 2.3456
           },
           {
             "categoria": "APOSENTADO (EXCETO SERVIDOR PÚBLICO)",
             "total": 177,
-            "percentual": 2.2689
+            "percentual": 2.2686
           },
           {
             "categoria": "JORNALISTA E REDATOR",
             "total": 148,
-            "percentual": 1.8972
+            "percentual": 1.8969
           },
           {
             "categoria": "PROFESSOR DE ENSINO MÉDIO",
             "total": 140,
-            "percentual": 1.7946
+            "percentual": 1.7944
           },
           {
             "categoria": "SERVIDOR PÚBLICO MUNICIPAL",
             "total": 136,
-            "percentual": 1.7434
+            "percentual": 1.7431
           },
           {
             "categoria": "PROFESSOR DE ENSINO SUPERIOR",
             "total": 113,
-            "percentual": 1.4485
+            "percentual": 1.4483
           },
           {
             "categoria": "SERVIDOR PÚBLICO FEDERAL",
             "total": 103,
-            "percentual": 1.3203
+            "percentual": 1.3202
           },
           {
             "categoria": "PROFESSOR DE ENSINO FUNDAMENTAL",
             "total": 100,
-            "percentual": 1.2819
+            "percentual": 1.2817
           },
           {
             "categoria": "AGRICULTOR",
             "total": 96,
-            "percentual": 1.2306
+            "percentual": 1.2305
           },
           {
             "categoria": "ENGENHEIRO",
             "total": 92,
-            "percentual": 1.1793
+            "percentual": 1.1792
           }
         ],
         "partido": [
           {
             "categoria": "PL",
             "total": 542,
-            "percentual": 6.9478
+            "percentual": 6.9469
           },
           {
             "categoria": "NOVO",
             "total": 511,
-            "percentual": 6.5504
+            "percentual": 6.5496
           },
           {
             "categoria": "PDT",
             "total": 478,
-            "percentual": 6.1274
+            "percentual": 6.1266
           },
           {
             "categoria": "REPUBLICANOS",
             "total": 469,
-            "percentual": 6.012
+            "percentual": 6.0113
           },
           {
             "categoria": "MDB",
             "total": 467,
-            "percentual": 5.9864
+            "percentual": 5.9856
           },
           {
             "categoria": "PODE",
             "total": 465,
-            "percentual": 5.9608
+            "percentual": 5.96
           },
           {
             "categoria": "PSD",
             "total": 438,
-            "percentual": 5.6147
+            "percentual": 5.6139
           },
           {
             "categoria": "PSB",
             "total": 429,
-            "percentual": 5.4993
+            "percentual": 5.4986
           },
           {
             "categoria": "AVANTE",
             "total": 426,
-            "percentual": 5.4608
+            "percentual": 5.4601
           },
           {
             "categoria": "PSDB",
             "total": 386,
-            "percentual": 4.9481
+            "percentual": 4.9474
           },
           {
             "categoria": "PT",
             "total": 356,
-            "percentual": 4.5635
+            "percentual": 4.5629
           },
           {
             "categoria": "DC",
             "total": 352,
-            "percentual": 4.5122
+            "percentual": 4.5117
           },
           {
             "categoria": "MISSÃO",
             "total": 334,
-            "percentual": 4.2815
+            "percentual": 4.281
           },
           {
             "categoria": "PSOL",
             "total": 313,
-            "percentual": 4.0123
+            "percentual": 4.0118
           },
           {
             "categoria": "UNIÃO",
             "total": 294,
-            "percentual": 3.7687
+            "percentual": 3.7683
           },
           {
             "categoria": "SOLIDARIEDADE",
             "total": 274,
-            "percentual": 3.5124
+            "percentual": 3.5119
           },
           {
             "categoria": "PP",
             "total": 238,
-            "percentual": 3.0509
+            "percentual": 3.0505
           },
           {
             "categoria": "PRD",
             "total": 217,
-            "percentual": 2.7817
+            "percentual": 2.7813
           },
           {
             "categoria": "DEMOCRATA",
             "total": 156,
-            "percentual": 1.9997
+            "percentual": 1.9995
           },
           {
             "categoria": "MOBILIZA",
             "total": 124,
-            "percentual": 1.5895
+            "percentual": 1.5893
           },
           {
             "categoria": "REDE",
             "total": 115,
-            "percentual": 1.4742
+            "percentual": 1.474
           },
           {
             "categoria": "AGIR",
-            "total": 110,
-            "percentual": 1.4101
+            "total": 111,
+            "percentual": 1.4227
           },
           {
             "categoria": "PV",
             "total": 81,
-            "percentual": 1.0383
+            "percentual": 1.0382
           },
           {
             "categoria": "CIDADANIA",
             "total": 70,
-            "percentual": 0.8973
+            "percentual": 0.8972
           },
           {
             "categoria": "PCDOB",
             "total": 52,
-            "percentual": 0.6666
+            "percentual": 0.6665
           },
           {
             "categoria": "UP",
             "total": 46,
-            "percentual": 0.5897
+            "percentual": 0.5896
           },
           {
             "categoria": "PCO",
@@ -1366,151 +1366,151 @@
           {
             "categoria": "PSTU",
             "total": 19,
-            "percentual": 0.2436
+            "percentual": 0.2435
           }
         ],
         "uf": [
           {
             "categoria": "SP",
-            "total": 1131,
-            "percentual": 14.4981
+            "total": 1132,
+            "percentual": 14.5091
           },
           {
             "categoria": "RJ",
             "total": 793,
-            "percentual": 10.1654
+            "percentual": 10.1641
           },
           {
             "categoria": "MG",
             "total": 756,
-            "percentual": 9.6911
+            "percentual": 9.6898
           },
           {
             "categoria": "BA",
             "total": 535,
-            "percentual": 6.8581
+            "percentual": 6.8572
           },
           {
             "categoria": "RS",
             "total": 458,
-            "percentual": 5.871
+            "percentual": 5.8703
           },
           {
             "categoria": "PR",
             "total": 428,
-            "percentual": 5.4865
+            "percentual": 5.4858
           },
           {
             "categoria": "PE",
             "total": 392,
-            "percentual": 5.025
+            "percentual": 5.0244
           },
           {
             "categoria": "CE",
             "total": 295,
-            "percentual": 3.7816
+            "percentual": 3.7811
           },
           {
             "categoria": "MA",
             "total": 282,
-            "percentual": 3.6149
+            "percentual": 3.6145
           },
           {
             "categoria": "PA",
             "total": 268,
-            "percentual": 3.4355
+            "percentual": 3.435
           },
           {
             "categoria": "GO",
             "total": 265,
-            "percentual": 3.397
+            "percentual": 3.3966
           },
           {
             "categoria": "SC",
             "total": 231,
-            "percentual": 2.9612
+            "percentual": 2.9608
           },
           {
             "categoria": "PB",
             "total": 190,
-            "percentual": 2.4356
+            "percentual": 2.4353
           },
           {
             "categoria": "DF",
             "total": 172,
-            "percentual": 2.2048
+            "percentual": 2.2046
           },
           {
             "categoria": "PI",
             "total": 164,
-            "percentual": 2.1023
+            "percentual": 2.102
           },
           {
             "categoria": "SE",
             "total": 141,
-            "percentual": 1.8075
+            "percentual": 1.8072
           },
           {
             "categoria": "AM",
             "total": 139,
-            "percentual": 1.7818
+            "percentual": 1.7816
           },
           {
             "categoria": "MT",
             "total": 138,
-            "percentual": 1.769
+            "percentual": 1.7688
           },
           {
             "categoria": "ES",
             "total": 137,
-            "percentual": 1.7562
+            "percentual": 1.756
           },
           {
             "categoria": "RO",
             "total": 134,
-            "percentual": 1.7177
+            "percentual": 1.7175
           },
           {
             "categoria": "MS",
             "total": 124,
-            "percentual": 1.5895
+            "percentual": 1.5893
           },
           {
             "categoria": "AL",
             "total": 118,
-            "percentual": 1.5126
+            "percentual": 1.5124
           },
           {
             "categoria": "RN",
             "total": 111,
-            "percentual": 1.4229
+            "percentual": 1.4227
           },
           {
             "categoria": "RR",
             "total": 108,
-            "percentual": 1.3844
+            "percentual": 1.3843
           },
           {
             "categoria": "AC",
             "total": 102,
-            "percentual": 1.3075
+            "percentual": 1.3074
           },
           {
             "categoria": "TO",
             "total": 98,
-            "percentual": 1.2562
+            "percentual": 1.2561
           },
           {
             "categoria": "AP",
             "total": 91,
-            "percentual": 1.1665
+            "percentual": 1.1664
           }
         ],
         "idade": {
-          "n": 7801,
+          "n": 7802,
           "min": 19.0,
           "mediana": 48.0,
-          "media": 48.7104,
+          "media": 48.7105,
           "max": 88.0
         }
       },
@@ -2653,38 +2653,38 @@
     },
     "completude": {
       "id_tse": {
-        "presentes": 20061,
-        "total": 20061,
+        "presentes": 20062,
+        "total": 20062,
         "percentual": 100.0
       },
       "nome": {
-        "presentes": 20061,
-        "total": 20061,
+        "presentes": 20062,
+        "total": 20062,
         "percentual": 100.0
       },
       "partido": {
-        "presentes": 20061,
-        "total": 20061,
+        "presentes": 20062,
+        "total": 20062,
         "percentual": 100.0
       },
       "uf": {
-        "presentes": 20061,
-        "total": 20061,
+        "presentes": 20062,
+        "total": 20062,
         "percentual": 100.0
       },
       "genero": {
-        "presentes": 20061,
-        "total": 20061,
+        "presentes": 20062,
+        "total": 20062,
         "percentual": 100.0
       },
       "grau_instrucao": {
-        "presentes": 20061,
-        "total": 20061,
+        "presentes": 20062,
+        "total": 20062,
         "percentual": 100.0
       },
       "ocupacao": {
-        "presentes": 20061,
-        "total": 20061,
+        "presentes": 20062,
+        "total": 20062,
         "percentual": 100.0
       }
     }
@@ -2696,7 +2696,7 @@
     "candidaturas_com_financas_fonte": 16463,
     "registros_financeiros_vinculados_catalogo": 16463,
     "registros_financeiros_sem_vinculo_catalogo": 0,
-    "cobertura_financeira_catalogo_percentual": 82.0647,
+    "cobertura_financeira_catalogo_percentual": 82.0606,
     "despesas_contratadas_sobre_receitas_percentual": 64.0819,
     "receitas_por_fonte": [
       {
@@ -3462,8 +3462,8 @@
         "ok": true
       },
       "Deputado Federal": {
-        "esperado": 7801,
-        "lido": 7801,
+        "esperado": 7802,
+        "lido": 7802,
         "ok": true
       },
       "Deputado Estadual/Distrital": {
@@ -3489,25 +3489,25 @@
       "reasons": [],
       "freshness": {
         "ok": true,
-        "checked_at_utc": "2026-09-24T00:00:34.244469+00:00",
+        "checked_at_utc": "2026-09-24T08:47:09.477059+00:00",
         "sources": {
           "candidaturas": {
-            "generated_at_utc": "2026-09-23T19:07:34.873924+00:00",
-            "age_hours": 4.883,
+            "generated_at_utc": "2026-09-24T08:35:26.884403+00:00",
+            "age_hours": 0.195,
             "sla_hours": 12,
             "ok": true,
             "reason": null
           },
           "financas": {
             "generated_at_utc": "2026-09-23T23:57:06.814290+00:00",
-            "age_hours": 0.058,
+            "age_hours": 8.834,
             "sla_hours": 18,
             "ok": true,
             "reason": null
           },
           "camara": {
             "generated_at_utc": "2026-09-23T08:42:46.826840+00:00",
-            "age_hours": 15.297,
+            "age_hours": 24.073,
             "sla_hours": 36,
             "ok": true,
             "reason": null

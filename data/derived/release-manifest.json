@@ -1,15 +1,15 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260924T000034Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-24T00:00:34.225222+00:00",
+  "data_release_id": "20260924T084709Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-24T08:47:09.458588+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "b03084e858598df2f67b29f894f0f7f9e2cef260",
+    "commit": "ab223a588d0bdecfb60a60e8545af98d7c07f2ef",
     "generated_at_utc": {
-      "candidaturas": "2026-09-23T19:07:34.873924+00:00",
+      "candidaturas": "2026-09-24T08:35:26.884403+00:00",
       "financas": "2026-09-23T23:57:06.814290+00:00",
       "camara": "2026-09-23T08:42:46.826840+00:00"
     }
@@ -26,12 +26,12 @@
     {
       "path": "data/derived/snapshot-latest.json",
       "bytes": 82737,
-      "sha256": "dfd4ae3f0c73bb28d7035f3193463a07a3e81ca4d0526486756bb658b624cf08"
+      "sha256": "0d2d20623be80d08eb71c1d18ddeb4b7f6234a1a98b474d56a2884d0e1433478"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
       "bytes": 163,
-      "sha256": "934e0d172ad478172eaa92fd6db19c314ee60e8d0c3931485663861b5a1b1f7d"
+      "sha256": "186431f37848b7f3881641aa00adc450acb3b776b8c594f35f1def8d7658964c"
     },
     {
       "path": "data/derived/deputado_estadual_por_uf.csv",
@@ -51,7 +51,7 @@
     {
       "path": "docs/reports/latest.md",
       "bytes": 1151,
-      "sha256": "d2ceb5a8d63cd55810d6e931eb6e18af309bab411fd750c9bd61a4784fde3f57"
+      "sha256": "10c09a42e1dc344a36d2c24cf9131066aefc5188278ee8350194a5739f099bc4"
     }
   ]
 }
