@@ -2,15 +2,15 @@
   "meta": {
     "analysis_schema_version": 1,
     "pipeline_version": "0.3.1",
-    "generated_at_utc": "2026-09-24T14:28:27.964454+00:00",
+    "generated_at_utc": "2026-09-24T19:31:33.580476+00:00",
     "snapshot_date": "2026-09-24",
     "source_repository": "MSsanto/Elei-oes-2026",
     "source_branch": "main",
-    "source_commit": "4fee86b9c4a638dc2b2c43cfb3c4bb1f90d764ab",
+    "source_commit": "fd10e3aed3bb3cc1822a67a4bd848f4c295fa93e",
     "source_generated_at_utc": {
-      "candidaturas": "2026-09-24T08:35:26.884403+00:00",
+      "candidaturas": "2026-09-24T19:18:32.718853+00:00",
       "financas": "2026-09-24T14:24:47.176229+00:00",
-      "camara": "2026-09-23T08:42:46.826840+00:00"
+      "camara": "2026-09-24T14:17:13.323285+00:00"
     }
   },
   "candidaturas": {
@@ -389,13 +389,13 @@
     "grau_instrucao": [
       {
         "categoria": "SUPERIOR COMPLETO",
-        "total": 11671,
-        "percentual": 58.1747
+        "total": 11672,
+        "percentual": 58.1796
       },
       {
         "categoria": "ENSINO MÉDIO COMPLETO",
-        "total": 4366,
-        "percentual": 21.7625
+        "total": 4365,
+        "percentual": 21.7576
       },
       {
         "categoria": "SUPERIOR INCOMPLETO",
@@ -1091,13 +1091,13 @@
         "grau_instrucao": [
           {
             "categoria": "SUPERIOR COMPLETO",
-            "total": 4670,
-            "percentual": 59.8564
+            "total": 4671,
+            "percentual": 59.8693
           },
           {
             "categoria": "ENSINO MÉDIO COMPLETO",
-            "total": 1520,
-            "percentual": 19.4822
+            "total": 1519,
+            "percentual": 19.4694
           },
           {
             "categoria": "SUPERIOR INCOMPLETO",
@@ -3489,25 +3489,25 @@
       "reasons": [],
       "freshness": {
         "ok": true,
-        "checked_at_utc": "2026-09-24T14:28:27.983011+00:00",
+        "checked_at_utc": "2026-09-24T19:31:33.598181+00:00",
         "sources": {
           "candidaturas": {
-            "generated_at_utc": "2026-09-24T08:35:26.884403+00:00",
-            "age_hours": 5.884,
+            "generated_at_utc": "2026-09-24T19:18:32.718853+00:00",
+            "age_hours": 0.217,
             "sla_hours": 12,
             "ok": true,
             "reason": null
           },
           "financas": {
             "generated_at_utc": "2026-09-24T14:24:47.176229+00:00",
-            "age_hours": 0.061,
+            "age_hours": 5.113,
             "sla_hours": 18,
             "ok": true,
             "reason": null
           },
           "camara": {
-            "generated_at_utc": "2026-09-23T08:42:46.826840+00:00",
-            "age_hours": 29.761,
+            "generated_at_utc": "2026-09-24T14:17:13.323285+00:00",
+            "age_hours": 5.239,
             "sla_hours": 36,
             "ok": true,
             "reason": null
