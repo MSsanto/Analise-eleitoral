@@ -2,14 +2,14 @@
   "meta": {
     "analysis_schema_version": 1,
     "pipeline_version": "0.3.1",
-    "generated_at_utc": "2026-09-25T14:46:18.183435+00:00",
+    "generated_at_utc": "2026-09-25T19:35:36.215362+00:00",
     "snapshot_date": "2026-09-25",
     "source_repository": "MSsanto/Elei-oes-2026",
     "source_branch": "main",
-    "source_commit": "a1960111e180f5e8db6337b99e2ba9423988c91a",
+    "source_commit": "2a1f69c62106ababec2452d1dcfb40847b60526f",
     "source_generated_at_utc": {
-      "candidaturas": "2026-09-25T14:40:02.036306+00:00",
-      "financas": "2026-09-25T00:00:17.372518+00:00",
+      "candidaturas": "2026-09-25T19:20:34.293948+00:00",
+      "financas": "2026-09-25T14:44:45.775101+00:00",
       "camara": "2026-09-25T14:40:21.603874+00:00"
     }
   },
@@ -3489,25 +3489,25 @@
       "reasons": [],
       "freshness": {
         "ok": true,
-        "checked_at_utc": "2026-09-25T14:46:18.201756+00:00",
+        "checked_at_utc": "2026-09-25T19:35:36.233172+00:00",
         "sources": {
           "candidaturas": {
-            "generated_at_utc": "2026-09-25T14:40:02.036306+00:00",
-            "age_hours": 0.104,
+            "generated_at_utc": "2026-09-25T19:20:34.293948+00:00",
+            "age_hours": 0.251,
             "sla_hours": 12,
             "ok": true,
             "reason": null
           },
           "financas": {
-            "generated_at_utc": "2026-09-25T00:00:17.372518+00:00",
-            "age_hours": 14.767,
+            "generated_at_utc": "2026-09-25T14:44:45.775101+00:00",
+            "age_hours": 4.847,
             "sla_hours": 18,
             "ok": true,
             "reason": null
           },
           "camara": {
             "generated_at_utc": "2026-09-25T14:40:21.603874+00:00",
-            "age_hours": 0.099,
+            "age_hours": 4.921,
             "sla_hours": 36,
             "ok": true,
             "reason": null
