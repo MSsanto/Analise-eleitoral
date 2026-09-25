@@ -2,15 +2,15 @@
   "meta": {
     "analysis_schema_version": 1,
     "pipeline_version": "0.3.1",
-    "generated_at_utc": "2026-09-25T09:07:23.157788+00:00",
+    "generated_at_utc": "2026-09-25T14:46:18.183435+00:00",
     "snapshot_date": "2026-09-25",
     "source_repository": "MSsanto/Elei-oes-2026",
     "source_branch": "main",
-    "source_commit": "b24275ac667630b827b1f331c30a14217c957e92",
+    "source_commit": "a1960111e180f5e8db6337b99e2ba9423988c91a",
     "source_generated_at_utc": {
-      "candidaturas": "2026-09-24T23:55:20.482149+00:00",
+      "candidaturas": "2026-09-25T14:40:02.036306+00:00",
       "financas": "2026-09-25T00:00:17.372518+00:00",
-      "camara": "2026-09-24T14:17:13.323285+00:00"
+      "camara": "2026-09-25T14:40:21.603874+00:00"
     }
   },
   "candidaturas": {
@@ -431,8 +431,8 @@
     "ocupacao_top20": [
       {
         "categoria": "OUTROS",
-        "total": 2723,
-        "percentual": 13.5729
+        "total": 2724,
+        "percentual": 13.5779
       },
       {
         "categoria": "EMPRESÁRIO",
@@ -476,8 +476,8 @@
       },
       {
         "categoria": "ESTUDANTE, BOLSISTA, ESTAGIÁRIO E ASSEMELHADOS",
-        "total": 505,
-        "percentual": 2.5172
+        "total": 504,
+        "percentual": 2.5122
       },
       {
         "categoria": "ADMINISTRADOR",
@@ -1128,8 +1128,8 @@
         "ocupacao": [
           {
             "categoria": "OUTROS",
-            "total": 1013,
-            "percentual": 12.9839
+            "total": 1014,
+            "percentual": 12.9967
           },
           {
             "categoria": "EMPRESÁRIO",
@@ -1158,8 +1158,8 @@
           },
           {
             "categoria": "ESTUDANTE, BOLSISTA, ESTAGIÁRIO E ASSEMELHADOS",
-            "total": 229,
-            "percentual": 2.9351
+            "total": 228,
+            "percentual": 2.9223
           },
           {
             "categoria": "POLICIAL MILITAR",
@@ -3489,25 +3489,25 @@
       "reasons": [],
       "freshness": {
         "ok": true,
-        "checked_at_utc": "2026-09-25T09:07:23.176301+00:00",
+        "checked_at_utc": "2026-09-25T14:46:18.201756+00:00",
         "sources": {
           "candidaturas": {
-            "generated_at_utc": "2026-09-24T23:55:20.482149+00:00",
-            "age_hours": 9.201,
+            "generated_at_utc": "2026-09-25T14:40:02.036306+00:00",
+            "age_hours": 0.104,
             "sla_hours": 12,
             "ok": true,
             "reason": null
           },
           "financas": {
             "generated_at_utc": "2026-09-25T00:00:17.372518+00:00",
-            "age_hours": 9.118,
+            "age_hours": 14.767,
             "sla_hours": 18,
             "ok": true,
             "reason": null
           },
           "camara": {
-            "generated_at_utc": "2026-09-24T14:17:13.323285+00:00",
-            "age_hours": 18.836,
+            "generated_at_utc": "2026-09-25T14:40:21.603874+00:00",
+            "age_hours": 0.099,
             "sla_hours": 36,
             "ok": true,
             "reason": null
