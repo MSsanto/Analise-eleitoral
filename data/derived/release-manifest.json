@@ -1,17 +1,17 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260926T001119Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-26T00:11:19.877006+00:00",
+  "data_release_id": "20260926T184505Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-26T18:45:05.024903+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "087c10f07cca526714556049db602ca2574c6985",
+    "commit": "a54c244564da40b50906de2494facae8b76fdbd9",
     "generated_at_utc": {
-      "candidaturas": "2026-09-25T19:20:34.293948+00:00",
-      "financas": "2026-09-26T00:09:17.299245+00:00",
-      "camara": "2026-09-25T14:40:21.603874+00:00"
+      "candidaturas": "2026-09-26T18:39:33.363307+00:00",
+      "financas": "2026-09-26T13:52:53.019633+00:00",
+      "camara": "2026-09-26T14:44:19.015401+00:00"
     }
   },
   "quality": {
@@ -25,13 +25,13 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82732,
-      "sha256": "53c61a2ead33cec73564fd577e7e0bdbf91e22d0c98b2d982cb6907ee8004d2c"
+      "bytes": 82715,
+      "sha256": "b68af7e41b96627d3846306d165fdc1f3d30913e4c83ecd3fd2f0b321757d6ae"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
-      "bytes": 163,
-      "sha256": "186431f37848b7f3881641aa00adc450acb3b776b8c594f35f1def8d7658964c"
+      "bytes": 161,
+      "sha256": "d4c5aabdb59c5451f510d9f594b2c39ba56ddec2bd77983e610461c2a3fa6117"
     },
     {
       "path": "data/derived/deputado_estadual_por_uf.csv",
@@ -40,18 +40,18 @@
     },
     {
       "path": "data/derived/receitas_por_fonte.csv",
-      "bytes": 133,
-      "sha256": "cb52635e4b9cd5890f28ffb337ac53bfc91ecee240880458ec302bfa0aacc5a7"
+      "bytes": 137,
+      "sha256": "819ae64521fe679fecd91a88587d249c1c38ac229344ed1cd21cea539378ca4e"
     },
     {
       "path": "data/derived/despesas_por_categoria.csv",
-      "bytes": 2246,
-      "sha256": "20fd2cd4a227b5caff0a593f83598a369162ade5b5c383ffc0f346fdedbfafdb"
+      "bytes": 2238,
+      "sha256": "08028d33e09418eb94955ee16679c5bc39a95fba15b13da24b5b8d2d3e03c823"
     },
     {
       "path": "docs/reports/latest.md",
-      "bytes": 1150,
-      "sha256": "6f63fa5f9314558265125b798e666f4b6779a702a90caf1b145511299e63f532"
+      "bytes": 1149,
+      "sha256": "2a9320b755886b3d153c7c4fdf138e3aaf452f83f7f298ba37d207d3eb1aefdb"
     }
   ]
 }
