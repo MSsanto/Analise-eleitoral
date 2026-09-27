@@ -1,7 +1,7 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260926T235640Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-26T23:56:40.058938+00:00",
+  "data_release_id": "20260927T093323Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-27T09:33:23.932877+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
@@ -26,7 +26,7 @@
     {
       "path": "data/derived/snapshot-latest.json",
       "bytes": 82822,
-      "sha256": "27980bfffdca156240b577eb5eb32e27f9b64aa99a86870c11e3f4de0e5896ec"
+      "sha256": "5dd73585eab0f44af4733ba311693d1b32b982ff32179fd2c6f94185f3f48372"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
@@ -51,7 +51,7 @@
     {
       "path": "docs/reports/latest.md",
       "bytes": 1150,
-      "sha256": "bbef993f8b1b56ddfe6878acdb8686f0016d8e2c345fb707378be2bd594f6407"
+      "sha256": "90eeaa650868b84f2f7aab0c957352119c89968afbc4cd0b46a81873dbb0b305"
     }
   ]
 }
