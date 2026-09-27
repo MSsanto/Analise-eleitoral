@@ -1,16 +1,16 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260927T145105Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-27T14:51:05.516680+00:00",
+  "data_release_id": "20260927T191950Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-27T19:19:50.584907+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "71c74fab83db389e0d50a01eb955d8f613c7bf55",
+    "commit": "e3ddc01a83021a95f458484a63a404c5f3b36b6f",
     "generated_at_utc": {
-      "candidaturas": "2026-09-27T09:23:44.482966+00:00",
-      "financas": "2026-09-26T23:52:37.134084+00:00",
+      "candidaturas": "2026-09-27T14:46:49.832249+00:00",
+      "financas": "2026-09-27T14:50:29.825518+00:00",
       "camara": "2026-09-26T14:44:19.015401+00:00"
     }
   },
@@ -25,8 +25,8 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82824,
-      "sha256": "bbf7ad082d7aaa59d5b895a6e68901896349f5e6c7565d8a5cd6c68a633d8bd4"
+      "bytes": 82832,
+      "sha256": "1f1fee10feeb2b73076077ffcc74ac00e06cb4fccf6744e67018cdbec2a4c5a8"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
@@ -40,18 +40,18 @@
     },
     {
       "path": "data/derived/receitas_por_fonte.csv",
-      "bytes": 135,
-      "sha256": "0bc9ff24320d668862722c1a6050a2c6568d6dfb8b1367a36207c39dc5a4ed48"
+      "bytes": 138,
+      "sha256": "fdff10ee539624fe90e41dc9467caa5db88c60af638e3d5b9a25af8d01262a9c"
     },
     {
       "path": "data/derived/despesas_por_categoria.csv",
-      "bytes": 2274,
-      "sha256": "19d6b6e0e0909262f9ad017435652a503e53f7fa4b4c3043a6506f387b8b8c9d"
+      "bytes": 2277,
+      "sha256": "c6ddf1adecf5138b8d180fb30be6be89f6c12f6d51e78cd7c8f9d397986297f1"
     },
     {
       "path": "docs/reports/latest.md",
-      "bytes": 1152,
-      "sha256": "14ce85049cf3c0e543acbf4a6a59e13e369ad1055b703ffa48c0e46191537ce2"
+      "bytes": 1150,
+      "sha256": "2e02ae08e8cd4c2710d76d87604d3c7d47a42fa713b2da31caad2ec7d6240904"
     }
   ]
 }
