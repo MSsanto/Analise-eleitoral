@@ -2,15 +2,15 @@
   "meta": {
     "analysis_schema_version": 1,
     "pipeline_version": "0.3.1",
-    "generated_at_utc": "2026-09-28T00:01:21.970160+00:00",
+    "generated_at_utc": "2026-09-28T10:12:07.656571+00:00",
     "snapshot_date": "2026-09-28",
     "source_repository": "MSsanto/Elei-oes-2026",
     "source_branch": "main",
-    "source_commit": "ee546df4cde9f1f11583139aea42c0b32b27de4e",
+    "source_commit": "06702ce2ca7f761c5317d0cf265fabfeb4d41940",
     "source_generated_at_utc": {
-      "candidaturas": "2026-09-27T14:46:49.832249+00:00",
+      "candidaturas": "2026-09-28T09:58:27.154340+00:00",
       "financas": "2026-09-27T23:57:13.459028+00:00",
-      "camara": "2026-09-26T14:44:19.015401+00:00"
+      "camara": "2026-09-27T23:51:56.325983+00:00"
     }
   },
   "candidaturas": {
@@ -357,13 +357,13 @@
     "cor_raca": [
       {
         "categoria": "BRANCA",
-        "total": 10043,
-        "percentual": 50.0573
+        "total": 10044,
+        "percentual": 50.0623
       },
       {
         "categoria": "PARDA",
-        "total": 7003,
-        "percentual": 34.905
+        "total": 7002,
+        "percentual": 34.9001
       },
       {
         "categoria": "PRETA",
@@ -592,13 +592,13 @@
         "cor_raca": [
           {
             "categoria": "BRANCA",
-            "total": 5687,
-            "percentual": 48.4991
+            "total": 5688,
+            "percentual": 48.5076
           },
           {
             "categoria": "PARDA",
-            "total": 4261,
-            "percentual": 36.3381
+            "total": 4260,
+            "percentual": 36.3295
           },
           {
             "categoria": "PRETA",
@@ -3494,25 +3494,25 @@
       "reasons": [],
       "freshness": {
         "ok": true,
-        "checked_at_utc": "2026-09-28T00:01:21.988492+00:00",
+        "checked_at_utc": "2026-09-28T10:12:07.672093+00:00",
         "sources": {
           "candidaturas": {
-            "generated_at_utc": "2026-09-27T14:46:49.832249+00:00",
-            "age_hours": 9.242,
+            "generated_at_utc": "2026-09-28T09:58:27.154340+00:00",
+            "age_hours": 0.228,
             "sla_hours": 12,
             "ok": true,
             "reason": null
           },
           "financas": {
             "generated_at_utc": "2026-09-27T23:57:13.459028+00:00",
-            "age_hours": 0.069,
+            "age_hours": 10.248,
             "sla_hours": 18,
             "ok": true,
             "reason": null
           },
           "camara": {
-            "generated_at_utc": "2026-09-26T14:44:19.015401+00:00",
-            "age_hours": 33.284,
+            "generated_at_utc": "2026-09-27T23:51:56.325983+00:00",
+            "age_hours": 10.336,
             "sla_hours": 36,
             "ok": true,
             "reason": null

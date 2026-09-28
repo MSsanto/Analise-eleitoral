@@ -1,17 +1,17 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260928T000121Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-28T00:01:21.970160+00:00",
+  "data_release_id": "20260928T101207Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-28T10:12:07.656571+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "ee546df4cde9f1f11583139aea42c0b32b27de4e",
+    "commit": "06702ce2ca7f761c5317d0cf265fabfeb4d41940",
     "generated_at_utc": {
-      "candidaturas": "2026-09-27T14:46:49.832249+00:00",
+      "candidaturas": "2026-09-28T09:58:27.154340+00:00",
       "financas": "2026-09-27T23:57:13.459028+00:00",
-      "camara": "2026-09-26T14:44:19.015401+00:00"
+      "camara": "2026-09-27T23:51:56.325983+00:00"
     }
   },
   "quality": {
@@ -25,8 +25,8 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82833,
-      "sha256": "9c3a29ce257b490764db0b40595582f5dd7f490804e18d5f48041f333324e8fb"
+      "bytes": 82835,
+      "sha256": "bdcc48feb24f6021ac60a4fc796c182f5012483bb2a2ebfef92e49026c1a8944"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
@@ -50,8 +50,8 @@
     },
     {
       "path": "docs/reports/latest.md",
-      "bytes": 1151,
-      "sha256": "895fc5f29faded1f6febbe093bb2a664db7620bc2ae6d1ebcbb4b4719ff25aa7"
+      "bytes": 1152,
+      "sha256": "8a24ae5dd82a934ec09dc2317bec5471c2c62125da040180c65f963fa0389f71"
     }
   ]
 }
