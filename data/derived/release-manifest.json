@@ -1,17 +1,17 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260928T212427Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-28T21:24:27.618635+00:00",
+  "data_release_id": "20260929T011820Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-29T01:18:20.765181+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "7717a80cf250d64b918a3f28eac8343ed08c5b89",
+    "commit": "a653dc408cd9ec80d437e49dde1aaa710f706313",
     "generated_at_utc": {
-      "candidaturas": "2026-09-28T09:58:27.154340+00:00",
-      "financas": "2026-09-28T17:49:29.438796+00:00",
-      "camara": "2026-09-27T23:51:56.325983+00:00"
+      "candidaturas": "2026-09-29T01:04:07.619377+00:00",
+      "financas": "2026-09-29T01:15:08.535294+00:00",
+      "camara": "2026-09-29T01:04:19.360312+00:00"
     }
   },
   "quality": {
@@ -25,8 +25,8 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82835,
-      "sha256": "bf47eb2b34d0c280a1e3ad259922a3743fddf32ad8d131514d53b6e5abb26a63"
+      "bytes": 82803,
+      "sha256": "eb444f4bd2208900cad4805033f91fed7656283728fd5d6069d93527655c19d8"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
@@ -40,18 +40,18 @@
     },
     {
       "path": "data/derived/receitas_por_fonte.csv",
-      "bytes": 138,
-      "sha256": "fdff10ee539624fe90e41dc9467caa5db88c60af638e3d5b9a25af8d01262a9c"
+      "bytes": 137,
+      "sha256": "6bce6689077f5dfc57f6fef5242e3bba94b3c5dfd06a77d17aa0e49a90b93c65"
     },
     {
       "path": "data/derived/despesas_por_categoria.csv",
-      "bytes": 2277,
-      "sha256": "c6ddf1adecf5138b8d180fb30be6be89f6c12f6d51e78cd7c8f9d397986297f1"
+      "bytes": 2275,
+      "sha256": "887fa2e07c60c65c6b5500fb62095c8b007c6c5d2662f128855101cd2648ecd3"
     },
     {
       "path": "docs/reports/latest.md",
-      "bytes": 1152,
-      "sha256": "98b53583f34d1e11a7f4f29e0b986442ff4537b4c13472b7f31db864a1da8f08"
+      "bytes": 1150,
+      "sha256": "85c3e14b45a6bcb3ff61f343282f2fc4fe649df0cc308536108ba9f6637c9344"
     }
   ]
 }
