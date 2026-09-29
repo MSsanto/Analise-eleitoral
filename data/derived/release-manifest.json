@@ -1,16 +1,16 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260929T101002Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-29T10:10:02.652660+00:00",
+  "data_release_id": "20260929T201605Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-29T20:16:05.755147+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "a653dc408cd9ec80d437e49dde1aaa710f706313",
+    "commit": "584686377de1f7e6323eab80841d89054528e9cb",
     "generated_at_utc": {
-      "candidaturas": "2026-09-29T01:04:07.619377+00:00",
-      "financas": "2026-09-29T01:15:08.535294+00:00",
+      "candidaturas": "2026-09-29T20:04:02.119013+00:00",
+      "financas": "2026-09-29T16:10:09.409237+00:00",
       "camara": "2026-09-29T01:04:19.360312+00:00"
     }
   },
@@ -25,8 +25,8 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82803,
-      "sha256": "08685ec8df0d1dc330cff47c08e771fe61e838f2cb6fcf12b9717c4585fd3a3d"
+      "bytes": 82827,
+      "sha256": "b963bb52400502286671381fdf0c3d9cd10890166be0a1fc411ae618711cfbab"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
@@ -41,17 +41,17 @@
     {
       "path": "data/derived/receitas_por_fonte.csv",
       "bytes": 137,
-      "sha256": "6bce6689077f5dfc57f6fef5242e3bba94b3c5dfd06a77d17aa0e49a90b93c65"
+      "sha256": "172010158d05e4ac50a33f7fdd5e7a82c54fb044b70d55839cc7b980996c642b"
     },
     {
       "path": "data/derived/despesas_por_categoria.csv",
-      "bytes": 2275,
-      "sha256": "887fa2e07c60c65c6b5500fb62095c8b007c6c5d2662f128855101cd2648ecd3"
+      "bytes": 2274,
+      "sha256": "28d0b1d393554df61d4650fd92cae5377a816fbafb1b8edd5bab599fa5b0397c"
     },
     {
       "path": "docs/reports/latest.md",
-      "bytes": 1150,
-      "sha256": "8d4b3a24e2d83ee5b8277f2ac234b5473ecf73e48e0ca0691ba207f3edcfc1ea"
+      "bytes": 1151,
+      "sha256": "750953ee8b3f1d806c34fd9436afbf1932bac8ba4c0dc422c38bc43c031eed89"
     }
   ]
 }
