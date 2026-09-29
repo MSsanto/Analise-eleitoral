@@ -2,7 +2,7 @@
   "meta": {
     "analysis_schema_version": 1,
     "pipeline_version": "0.3.1",
-    "generated_at_utc": "2026-09-29T01:18:20.765181+00:00",
+    "generated_at_utc": "2026-09-29T10:10:02.652660+00:00",
     "snapshot_date": "2026-09-29",
     "source_repository": "MSsanto/Elei-oes-2026",
     "source_branch": "main",
@@ -3494,25 +3494,25 @@
       "reasons": [],
       "freshness": {
         "ok": true,
-        "checked_at_utc": "2026-09-29T01:18:20.788486+00:00",
+        "checked_at_utc": "2026-09-29T10:10:02.670021+00:00",
         "sources": {
           "candidaturas": {
             "generated_at_utc": "2026-09-29T01:04:07.619377+00:00",
-            "age_hours": 0.237,
+            "age_hours": 9.099,
             "sla_hours": 12,
             "ok": true,
             "reason": null
           },
           "financas": {
             "generated_at_utc": "2026-09-29T01:15:08.535294+00:00",
-            "age_hours": 0.053,
+            "age_hours": 8.915,
             "sla_hours": 18,
             "ok": true,
             "reason": null
           },
           "camara": {
             "generated_at_utc": "2026-09-29T01:04:19.360312+00:00",
-            "age_hours": 0.234,
+            "age_hours": 9.095,
             "sla_hours": 36,
             "ok": true,
             "reason": null

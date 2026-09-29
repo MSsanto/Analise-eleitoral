@@ -24,9 +24,9 @@ O catálogo reúne **20,063 registros de candidatura**. A camada financeira agre
 
 - Gate de publicação: **APROVADO**.
 - Cobertura federal: **27/27 UFs**.
-- candidaturas: 0.237 h de idade; SLA 12 h; OK.
-- financas: 0.053 h de idade; SLA 18 h; OK.
-- camara: 0.234 h de idade; SLA 36 h; OK.
+- candidaturas: 9.099 h de idade; SLA 12 h; OK.
+- financas: 8.915 h de idade; SLA 18 h; OK.
+- camara: 9.095 h de idade; SLA 36 h; OK.
 
 ## Proveniência
 
