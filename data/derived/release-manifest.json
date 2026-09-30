@@ -1,16 +1,16 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260929T201605Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-29T20:16:05.755147+00:00",
+  "data_release_id": "20260930T004755Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-30T00:47:55.979147+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "584686377de1f7e6323eab80841d89054528e9cb",
+    "commit": "99f36e3d4bb9396fe8c222c6205feeecafe020ea",
     "generated_at_utc": {
-      "candidaturas": "2026-09-29T20:04:02.119013+00:00",
-      "financas": "2026-09-29T16:10:09.409237+00:00",
+      "candidaturas": "2026-09-30T00:35:08.193515+00:00",
+      "financas": "2026-09-29T21:23:57.191190+00:00",
       "camara": "2026-09-29T01:04:19.360312+00:00"
     }
   },
@@ -25,18 +25,18 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82827,
-      "sha256": "b963bb52400502286671381fdf0c3d9cd10890166be0a1fc411ae618711cfbab"
+      "bytes": 82832,
+      "sha256": "1c677cd11ab614e950479acd00437c288c7f101491dbdae4193d7a9fb45e9ef0"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
-      "bytes": 161,
-      "sha256": "d4c5aabdb59c5451f510d9f594b2c39ba56ddec2bd77983e610461c2a3fa6117"
+      "bytes": 162,
+      "sha256": "f3517dbe260e0cc998e09216aefcfa5b5de2ebbe4ea6947fe3a9a4347888e8ab"
     },
     {
       "path": "data/derived/deputado_estadual_por_uf.csv",
-      "bytes": 435,
-      "sha256": "773fd8897f9c5cf39f85824839074074d7d950dd7d0e2f9b41c2b4f81f13c077"
+      "bytes": 438,
+      "sha256": "f37fb877bc2ab2071492f9d85a086e49175edb21167787bf9d62e14c4be03417"
     },
     {
       "path": "data/derived/receitas_por_fonte.csv",
@@ -50,8 +50,8 @@
     },
     {
       "path": "docs/reports/latest.md",
-      "bytes": 1151,
-      "sha256": "750953ee8b3f1d806c34fd9436afbf1932bac8ba4c0dc422c38bc43c031eed89"
+      "bytes": 1149,
+      "sha256": "2fb8b60e8868888ab1629754019c3f20920c6b28c4ca241b17f3ac77191a55fb"
     }
   ]
 }
