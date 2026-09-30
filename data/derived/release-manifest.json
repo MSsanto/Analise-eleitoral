@@ -1,16 +1,16 @@
 {
   "manifest_schema_version": 1,
-  "data_release_id": "20260930T100139Z-schema1-v0.3.1",
-  "generated_at_utc": "2026-09-30T10:01:39.289651+00:00",
+  "data_release_id": "20260930T202028Z-schema1-v0.3.1",
+  "generated_at_utc": "2026-09-30T20:20:28.604419+00:00",
   "software_version": "0.3.1",
   "analysis_schema_version": 1,
   "source": {
     "repository": "MSsanto/Elei-oes-2026",
     "branch": "main",
-    "commit": "cad932cf3839398fa894ce1d0f4728b23e40f7df",
+    "commit": "0cd5065412afb6750663e31abff30d4f4eacdefc",
     "generated_at_utc": {
       "candidaturas": "2026-09-30T09:50:47.584224+00:00",
-      "financas": "2026-09-29T21:23:57.191190+00:00",
+      "financas": "2026-09-30T16:07:38.984103+00:00",
       "camara": "2026-09-30T09:51:20.602579+00:00"
     }
   },
@@ -25,8 +25,8 @@
   "artifacts": [
     {
       "path": "data/derived/snapshot-latest.json",
-      "bytes": 82834,
-      "sha256": "8575d8cea457b86b4c4c59689ed201be4fe0d049e7e44be6e02ae09d2ffe45c4"
+      "bytes": 82825,
+      "sha256": "2b7809bc4ab66e257135dc2763b45e1a18850c48e7840b71b14d716eac79027d"
     },
     {
       "path": "data/derived/candidaturas_por_cargo.csv",
@@ -40,18 +40,18 @@
     },
     {
       "path": "data/derived/receitas_por_fonte.csv",
-      "bytes": 137,
-      "sha256": "172010158d05e4ac50a33f7fdd5e7a82c54fb044b70d55839cc7b980996c642b"
+      "bytes": 136,
+      "sha256": "994a26d6fac0d55127afd9c2877100bd7afd39517732fbb014f8d0ac14fb037f"
     },
     {
       "path": "data/derived/despesas_por_categoria.csv",
-      "bytes": 2274,
-      "sha256": "28d0b1d393554df61d4650fd92cae5377a816fbafb1b8edd5bab599fa5b0397c"
+      "bytes": 2272,
+      "sha256": "252b787806cd13f2d1baa736dc56ad1ad1b01208da65d63a749579c4291c89e9"
     },
     {
       "path": "docs/reports/latest.md",
-      "bytes": 1151,
-      "sha256": "f4d61575778148d52fab986a93bb74eb4eee042ca6841b058ac59c490f09bf64"
+      "bytes": 1152,
+      "sha256": "badfc1b4e5d56c8fad2167c2c2edefeb0a25a23f856b83072bc42476b647bd9d"
     }
   ]
 }
