@@ -2,14 +2,14 @@
   "meta": {
     "analysis_schema_version": 1,
     "pipeline_version": "0.3.1",
-    "generated_at_utc": "2026-10-02T01:06:43.714957+00:00",
+    "generated_at_utc": "2026-10-02T10:04:52.346505+00:00",
     "snapshot_date": "2026-10-02",
     "source_repository": "MSsanto/Elei-oes-2026",
     "source_branch": "main",
-    "source_commit": "702238316d0b42d345f710b76c3c85f4e2fa66e2",
+    "source_commit": "15391c883d0519cf5d2cc44832179c8bd665a9ee",
     "source_generated_at_utc": {
-      "candidaturas": "2026-10-01T20:24:16.602915+00:00",
-      "financas": "2026-10-01T16:50:17.763891+00:00",
+      "candidaturas": "2026-10-02T09:55:48.201970+00:00",
+      "financas": "2026-10-02T01:05:40.092110+00:00",
       "camara": "2026-10-01T10:18:29.770651+00:00"
     }
   },
@@ -389,8 +389,8 @@
     "grau_instrucao": [
       {
         "categoria": "SUPERIOR COMPLETO",
-        "total": 11677,
-        "percentual": 58.1988
+        "total": 11678,
+        "percentual": 58.2037
       },
       {
         "categoria": "ENSINO MÉDIO COMPLETO",
@@ -409,8 +409,8 @@
       },
       {
         "categoria": "ENSINO FUNDAMENTAL INCOMPLETO",
-        "total": 599,
-        "percentual": 2.9854
+        "total": 598,
+        "percentual": 2.9805
       },
       {
         "categoria": "ENSINO FUNDAMENTAL COMPLETO",
@@ -1091,8 +1091,8 @@
         "grau_instrucao": [
           {
             "categoria": "SUPERIOR COMPLETO",
-            "total": 4672,
-            "percentual": 59.8744
+            "total": 4673,
+            "percentual": 59.8872
           },
           {
             "categoria": "ENSINO MÉDIO COMPLETO",
@@ -1111,8 +1111,8 @@
           },
           {
             "categoria": "ENSINO FUNDAMENTAL INCOMPLETO",
-            "total": 223,
-            "percentual": 2.8579
+            "total": 222,
+            "percentual": 2.8451
           },
           {
             "categoria": "ENSINO FUNDAMENTAL COMPLETO",
@@ -3494,25 +3494,25 @@
       "reasons": [],
       "freshness": {
         "ok": true,
-        "checked_at_utc": "2026-10-02T01:06:43.733555+00:00",
+        "checked_at_utc": "2026-10-02T10:04:52.364524+00:00",
         "sources": {
           "candidaturas": {
-            "generated_at_utc": "2026-10-01T20:24:16.602915+00:00",
-            "age_hours": 4.708,
+            "generated_at_utc": "2026-10-02T09:55:48.201970+00:00",
+            "age_hours": 0.151,
             "sla_hours": 12,
             "ok": true,
             "reason": null
           },
           "financas": {
-            "generated_at_utc": "2026-10-01T16:50:17.763891+00:00",
-            "age_hours": 8.274,
+            "generated_at_utc": "2026-10-02T01:05:40.092110+00:00",
+            "age_hours": 8.987,
             "sla_hours": 18,
             "ok": true,
             "reason": null
           },
           "camara": {
             "generated_at_utc": "2026-10-01T10:18:29.770651+00:00",
-            "age_hours": 14.804,
+            "age_hours": 23.773,
             "sla_hours": 36,
             "ok": true,
             "reason": null
