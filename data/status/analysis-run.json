@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T14:26:48.639833Z",
+  "generated_at": "2026-10-03T18:50:56.778621Z",
   "component": "analise_eleitoral",
-  "status": "ok",
-  "stage": "complete",
-  "analyze_outcome": "success",
-  "validate_outcome": "success",
+  "status": "error",
+  "stage": "quality_gate_or_generation",
+  "analyze_outcome": "failure",
+  "validate_outcome": "skipped",
   "event": "schedule",
-  "run_id": "37129571295",
-  "run_number": "106",
-  "message": "Geração e validação concluídas com sucesso."
+  "run_id": "37145697016",
+  "run_number": "107",
+  "message": "A geração analítica foi interrompida. O último snapshot validado deve ser preservado."
 }
