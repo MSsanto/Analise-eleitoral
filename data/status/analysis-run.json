@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T11:11:29.150358Z",
+  "generated_at": "2026-10-13T20:50:52.783756Z",
   "component": "analise_eleitoral",
   "status": "error",
   "stage": "quality_gate_or_generation",
   "analyze_outcome": "failure",
   "validate_outcome": "skipped",
   "event": "schedule",
-  "run_id": "38388426059",
-  "run_number": "134",
+  "run_id": "38465946413",
+  "run_number": "135",
   "message": "A geração analítica foi interrompida. O último snapshot validado deve ser preservado."
 }
