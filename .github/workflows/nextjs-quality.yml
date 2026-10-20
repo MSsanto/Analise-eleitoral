@@ -1,0 +1,49 @@
+name: Next.js quality gate
+
+on:
+  pull_request:
+    paths:
+      - 'web/**'
+      - '.github/workflows/nextjs-quality.yml'
+  push:
+    branches:
+      - feat/nextjs-dashboard-quality
+    paths:
+      - 'web/**'
+      - '.github/workflows/nextjs-quality.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    name: Unit · build · E2E
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          package-manager-cache: false
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Production build
+        run: npm run build
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: End-to-end tests
+        run: npm run e2e
