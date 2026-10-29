@@ -1,17 +1,8 @@
 name: Atualizar análises eleitorais
 
 on:
+  # Execução manual apenas. Automação recorrente encerrada após o ciclo eleitoral de 2026.
   workflow_dispatch:
-  schedule:
-    # 00:55, 06:55, 12:55 e 18:55 em Brasília (UTC-3).
-    # A janela é posterior às coletas regulares do repositório-fonte.
-    - cron: "55 3,9,15,21 * * *"
-  push:
-    branches:
-      - main
-    paths:
-      - '.github/analysis-trigger.txt'
-      - '.github/workflows/analise-eleitoral.yml'
 
 permissions:
   contents: write
