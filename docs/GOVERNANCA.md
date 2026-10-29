@@ -1,5 +1,9 @@
 # Governança analítica
 
+## Estado do ciclo 2026
+
+O projeto está congelado desde 26/10/2026, após o encerramento do ciclo eleitoral. Coletas, geração analítica e releases permanecem suspensas. A retomada prevista para o ciclo de 2028 **não é automática**: exige autorização explícita e documentação antes de qualquer alteração ou reativação. Consulte [o registro de congelamento](CONGELAMENTO_2026.md).
+
 ## Princípios
 
 A camada analítica é factual, apartidária e reprodutível. Ela não atribui nota, confiabilidade, mérito, risco político ou recomendação eleitoral a pessoas, partidos ou candidaturas.
