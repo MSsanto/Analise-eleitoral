@@ -1,11 +1,14 @@
 name: Atualizar análises eleitorais
 
+# Congelado em 2026-10-26. Sem agenda, disparo manual ou push normal em main.
+# O branch guard é intencionalmente inerte; qualquer retomada exige autorização e documentação.
 on:
-  # Execução manual apenas. Automação recorrente encerrada após o ciclo eleitoral de 2026.
-  workflow_dispatch:
+  push:
+    branches:
+      - __freeze_guard__
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: analise-eleitoral-2026
@@ -13,6 +16,7 @@ concurrency:
 
 jobs:
   analisar:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     timeout-minutes: 25
 
