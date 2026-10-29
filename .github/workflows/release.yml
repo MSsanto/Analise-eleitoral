@@ -1,15 +1,13 @@
 name: Publicar release analítico
 
+# Congelado em 2026-10-26. Releases só podem voltar com autorização documentada.
 on:
-  workflow_dispatch:
   push:
-    branches: [main]
-    paths:
-      - VERSION
-      - .github/workflows/release.yml
+    branches:
+      - __freeze_guard__
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: release-analise-eleitoral
@@ -17,6 +15,7 @@ concurrency:
 
 jobs:
   release:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
